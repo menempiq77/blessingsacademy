@@ -19,7 +19,7 @@ body {
   margin: 0;
   font-family: "Cairo", sans-serif;
   color: var(--text);
-  background: linear-gradient(180deg, #f7fff9 0%, #f0faf4 100%);
+  background: #ffffff;
 }
 
 .container {
@@ -59,8 +59,23 @@ body {
   position: sticky;
   top: 0;
   z-index: 10;
-  background: rgba(255, 255, 255, 0.97);
+  background: rgba(255, 255, 255, 0.98);
   border-bottom: 1px solid #d8f1e3;
+}
+
+.logo-wrap {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  text-decoration: none;
+}
+
+.logo-img {
+  width: 46px;
+  height: 46px;
+  border-radius: 999px;
+  border: 2px solid #d5efdf;
+  background: #fff;
 }
 
 .nav-wrap {
@@ -113,18 +128,18 @@ body {
 }
 
 .btn-ghost {
-  border: 2px solid #b8e8c9;
+  border: 2px solid #8fcda9;
   color: var(--green-900);
-  background: rgba(255, 255, 255, 0.35);
+  background: rgba(255, 255, 255, 0.8);
 }
 
 .hero {
   position: relative;
   overflow: hidden;
   background:
-    linear-gradient(120deg, rgba(5, 30, 18, 0.82) 0%, rgba(15, 72, 42, 0.66) 55%, rgba(34, 108, 64, 0.6) 100%),
-    url("images/real/hero-mosque.jpg") center center / cover no-repeat;
-  color: var(--white);
+    linear-gradient(120deg, rgba(8, 45, 27, 0.42) 0%, rgba(13, 63, 38, 0.35) 58%, rgba(21, 90, 54, 0.3) 100%),
+    url("images/real/hero-mosque.jpg") center center / cover no-repeat fixed;
+  color: #13462a;
   padding: 5.3rem 0 4.9rem;
 }
 
@@ -133,9 +148,9 @@ body {
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(circle at 20% 50%, rgba(219, 255, 231, 0.14) 0%, rgba(219, 255, 231, 0) 45%),
+    radial-gradient(circle at 20% 50%, rgba(25, 116, 66, 0.07) 0%, rgba(219, 255, 231, 0) 45%),
     url("images/real/hero-quran.jpg") right 8% bottom 12% / 34% auto no-repeat;
-  opacity: 0.42;
+  opacity: 0.2;
   pointer-events: none;
 }
 
@@ -153,31 +168,37 @@ body {
   font-weight: 700;
   letter-spacing: 0.035em;
   text-transform: uppercase;
-  color: #c9f4d8;
+  color: #ffffff;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
 }
 
 h1 {
-  font-size: clamp(2.35rem, 5.8vw, 3.9rem);
-  line-height: 1.05;
-  margin: 0.5rem 0 0;
+  font-size: clamp(1.9rem, 4.2vw, 3rem);
+  line-height: 1.12;
+  margin: 0.35rem 0 0;
 }
 
 .hero-title {
-  display: inline-block;
-  max-width: 12.5ch;
-  padding: 0.45rem 0.9rem 0.55rem;
-  border: 1px solid rgba(255, 255, 255, 0.42);
-  border-radius: 24px;
-  background: linear-gradient(140deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.06));
-  backdrop-filter: blur(4px);
-  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.16);
+  display: block;
+  max-width: 18ch;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  font-family: "Sora", "Cairo", sans-serif;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  text-shadow: 0 3px 14px rgba(0, 0, 0, 0.35);
 }
 
 .lead {
-  color: #e8f8ee;
+  color: #ffffff;
   font-size: 1.03rem;
   line-height: 1.7;
   max-width: 50ch;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.28);
 }
 
 .hero-cta {
@@ -195,19 +216,20 @@ h1 {
 }
 
 .hero-points span {
-  border: 1px solid rgba(255, 255, 255, 0.36);
+  border: 1px solid rgba(38, 111, 70, 0.35);
   border-radius: 999px;
   padding: 0.4rem 0.72rem;
   font-size: 0.84rem;
-  background: rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.82);
+  color: #215d3c;
 }
 
 .hero-panel {
-  background: rgba(255, 255, 255, 0.14);
-  border: 1px solid rgba(255, 255, 255, 0.28);
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(60, 136, 91, 0.22);
   border-radius: 16px;
   padding: 1.35rem;
-  box-shadow: 0 18px 32px rgba(0, 0, 0, 0.16);
+  box-shadow: 0 18px 32px rgba(14, 74, 43, 0.12);
   backdrop-filter: blur(3px);
 }
 
@@ -217,7 +239,7 @@ h1 {
   object-fit: cover;
   border-radius: 12px;
   margin-bottom: 1rem;
-  border: 1px solid rgba(255, 255, 255, 0.35);
+  border: 1px solid rgba(45, 121, 76, 0.24);
 }
 
 .hero-slider {
@@ -260,7 +282,7 @@ h1 {
   height: 240px;
   right: 8%;
   top: 10%;
-  background: radial-gradient(circle, rgba(220, 255, 233, 0.42) 0%, rgba(220, 255, 233, 0) 70%);
+  background: radial-gradient(circle, rgba(131, 208, 161, 0.34) 0%, rgba(220, 255, 233, 0) 70%);
   animation: floatA 8s ease-in-out infinite;
 }
 
@@ -269,7 +291,7 @@ h1 {
   height: 300px;
   left: 6%;
   bottom: 8%;
-  background: radial-gradient(circle, rgba(155, 236, 186, 0.3) 0%, rgba(155, 236, 186, 0) 72%);
+  background: radial-gradient(circle, rgba(149, 222, 179, 0.26) 0%, rgba(155, 236, 186, 0) 72%);
   animation: floatB 10s ease-in-out infinite;
 }
 
@@ -381,7 +403,7 @@ h1 {
 }
 
 .section-alt {
-  background: var(--green-50);
+  background: #f8fdf9;
 }
 
 .section-kicker {
@@ -588,7 +610,7 @@ h2 {
 }
 
 .stats {
-  background: linear-gradient(130deg, #0b311d 0%, #15653a 100%);
+  background: linear-gradient(130deg, #0e4d2d 0%, #1b7f47 100%);
   color: var(--white);
   padding: 3rem 0;
 }
@@ -626,7 +648,7 @@ h2 {
 }
 
 .site-footer {
-  background: #072a18;
+  background: #0e4f2f;
   color: #d5f1de;
   padding-top: 2.1rem;
 }
@@ -635,6 +657,21 @@ h2 {
   display: grid;
   grid-template-columns: 1.2fr 1fr 1fr;
   gap: 1rem;
+}
+
+.footer-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  margin-top: 0;
+}
+
+.footer-logo {
+  width: 34px;
+  height: 34px;
+  border-radius: 999px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  background: #fff;
 }
 
 .site-footer a {
@@ -673,6 +710,7 @@ h2 {
 
   .hero {
     padding: 4.1rem 0 3.6rem;
+    background-attachment: scroll;
   }
 
   .hero-title {

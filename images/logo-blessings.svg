@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 420" role="img" aria-label="Blessings Academy logo">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1c7a47"/>
+      <stop offset="100%" stop-color="#2f9d5b"/>
+    </linearGradient>
+  </defs>
+  <circle cx="210" cy="210" r="200" fill="#ffffff"/>
+  <circle cx="210" cy="145" r="92" fill="url(#g1)"/>
+  <path d="M153 176h114l-57-56z" fill="#ffffff"/>
+  <rect x="137" y="105" width="18" height="72" rx="3" fill="#ffffff"/>
+  <rect x="265" y="105" width="18" height="72" rx="3" fill="#ffffff"/>
+  <rect x="140" y="94" width="12" height="12" fill="#ffffff"/>
+  <rect x="268" y="94" width="12" height="12" fill="#ffffff"/>
+  <circle cx="210" cy="134" r="10" fill="#ffffff"/>
+  <circle cx="216" cy="134" r="8" fill="url(#g1)"/>
+  <path d="M110 225c45-20 154-20 200 0-62 8-135 8-200 0z" fill="#c4a640"/>
+  <path d="M122 244c46-18 132-18 176 0-52 8-123 8-176 0z" fill="#c4a640"/>
+  <path d="M150 252l60 24 60-24-60 14z" fill="#c4a640"/>
+  <path d="M178 286c17-10 47-10 64 0-23 10-41 10-64 0z" fill="#c4a640"/>
+  <text x="210" y="333" text-anchor="middle" fill="#206941" font-family="Georgia, serif" font-size="42" font-style="italic" font-weight="700">Blessings Academy</text>
+  <text x="210" y="357" text-anchor="middle" fill="#4f6e57" font-family="Georgia, serif" font-size="17">Learn Arabic &amp; Quran with Tajweed</text>
+</svg>
