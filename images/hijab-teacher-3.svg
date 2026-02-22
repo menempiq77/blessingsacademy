@@ -1,0 +1,7 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="Hijab teacher avatar">
+  <rect width="160" height="160" rx="24" fill="#edf9f2"/>
+  <circle cx="80" cy="66" r="24" fill="#efbe9b"/>
+  <path d="M30 146c5-34 21-54 50-54s45 20 50 54" fill="#155f36"/>
+  <path d="M49 57c0-21 14-34 31-34s31 13 31 34c0 17-6 28-10 35-5-7-12-11-21-11s-16 4-21 11c-4-7-10-18-10-35z" fill="#0b4124"/>
+  <path d="M58 95c6-7 14-11 22-11s16 4 22 11l-3 28H61z" fill="#2d9f55"/>
+</svg>

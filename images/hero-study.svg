@@ -1,0 +1,19 @@
+﻿<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 800' role='img' aria-label='Quran Learning'>
+  <defs>
+    <linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>
+      <stop offset='0%' stop-color='#0d3f24'/>
+      <stop offset='100%' stop-color='#2ea259'/>
+    </linearGradient>
+  </defs>
+  <rect width='1200' height='800' fill='url(#g)'/>
+  <rect x='110' y='120' width='980' height='560' rx='28' fill='#ffffff' fill-opacity='0.12' stroke='#ffffff' stroke-opacity='0.45' />
+  <rect x='180' y='240' width='300' height='34' rx='8' fill='#dff6e7' fill-opacity='0.85'/>
+  <rect x='180' y='300' width='420' height='24' rx='8' fill='#dff6e7' fill-opacity='0.65'/>
+  <rect x='180' y='340' width='360' height='24' rx='8' fill='#dff6e7' fill-opacity='0.55'/>
+  <rect x='180' y='460' width='180' height='56' rx='10' fill='#1b8447'/>
+  <circle cx='830' cy='380' r='170' fill='#ffffff' fill-opacity='0.2'/>
+  <path d='M760 430h140l24-90h-188z' fill='#f7fffa' fill-opacity='0.9'/>
+  <path d='M768 430v24h148v-24' fill='#145f36'/>
+  <text x='180' y='210' fill='#ffffff' font-family='Cairo, sans-serif' font-size='56' font-weight='800'>Quran Learning</text>
+  <text x='180' y='390' fill='#eafff0' font-family='Cairo, sans-serif' font-size='34' font-weight='600'>Faith and education together</text>
+</svg>
