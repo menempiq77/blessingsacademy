@@ -22,6 +22,31 @@ body {
   background: #ffffff;
 }
 
+body.is-arabic {
+  direction: rtl;
+}
+
+body.is-arabic .hero-copy,
+body.is-arabic .hero-panel,
+body.is-arabic .section,
+body.is-arabic .site-footer,
+body.is-arabic .trial {
+  text-align: right;
+}
+
+body.is-arabic .hero-title {
+  font-family: "Cairo", sans-serif;
+  max-width: 20ch;
+}
+
+body.is-arabic .hero-cta,
+body.is-arabic .hero-points,
+body.is-arabic .topbar-wrap,
+body.is-arabic .trial-wrap,
+body.is-arabic .footer-brand {
+  direction: rtl;
+}
+
 .container {
   width: min(1140px, 92%);
   margin-inline: auto;
@@ -138,6 +163,39 @@ body {
 
 .nav-trial-btn {
   white-space: nowrap;
+}
+
+.header-actions {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.lang-switcher {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.22rem;
+  border: 1px solid #cfe8da;
+  border-radius: 999px;
+  background: #f6fcf8;
+}
+
+.lang-btn {
+  border: 0;
+  background: transparent;
+  color: #215d3c;
+  font: inherit;
+  font-size: 0.84rem;
+  font-weight: 800;
+  padding: 0.45rem 0.75rem;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.lang-btn.is-active {
+  background: var(--green-600);
+  color: #042411;
 }
 
 .btn {
@@ -785,6 +843,10 @@ h2 {
     border-radius: 8px;
   }
 
+  .header-actions {
+    margin-inline-start: auto;
+  }
+
   .trust-strip {
     margin-top: -0.8rem;
   }
@@ -847,6 +909,19 @@ h2 {
   .logo-img {
     width: 40px;
     height: 40px;
+  }
+
+  .header-actions {
+    gap: 0.45rem;
+  }
+
+  .lang-switcher {
+    padding: 0.16rem;
+  }
+
+  .lang-btn {
+    padding: 0.36rem 0.55rem;
+    font-size: 0.74rem;
   }
 
   .nav-trial-btn {
