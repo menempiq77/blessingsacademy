@@ -699,28 +699,6 @@ h2 {
   to { transform: scale(1.04) translateY(-4px); }
 }
 
-.stats {
-  background: linear-gradient(130deg, #0e4d2d 0%, #1b7f47 100%);
-  color: var(--white);
-  padding: 3rem 0;
-}
-
-.stats-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1rem;
-  text-align: center;
-}
-
-.stats-grid strong {
-  display: block;
-  font-size: 1.9rem;
-}
-
-.stats-grid span {
-  color: #d8f7e4;
-}
-
 .trial {
   padding: 3.8rem 0;
   background: linear-gradient(180deg, #e2f6e9 0%, #f3fcf7 100%);
@@ -785,7 +763,6 @@ h2 {
   .steps,
   .pricing,
   .gallery-grid,
-  .stats-grid,
   .footer-grid {
     grid-template-columns: 1fr 1fr;
   }
@@ -874,7 +851,6 @@ h2 {
   .steps,
   .pricing,
   .gallery-grid,
-  .stats-grid,
   .footer-grid,
   .trial-wrap {
     display: grid;
