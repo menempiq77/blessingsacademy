@@ -878,7 +878,6 @@ h2 {
 @media (max-width: 980px) {
   .hero-grid,
   .contact-actions,
-  .trust-grid,
   .cards-3,
   .steps,
   .pricing,
@@ -942,10 +941,9 @@ h2 {
 
   .header-actions {
     margin-inline-start: auto;
-  }
-
-  .trust-strip {
-    margin-top: -0.8rem;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    row-gap: 0.55rem;
   }
 
   .hero {
@@ -963,10 +961,13 @@ h2 {
 }
 
 @media (max-width: 640px) {
+  .container {
+    width: min(100%, calc(100% - 1.3rem));
+  }
+
   .topbar-wrap,
   .hero-grid,
   .contact-actions,
-  .trust-grid,
   .cards-3,
   .steps,
   .pricing,
@@ -985,13 +986,18 @@ h2 {
   }
 
   .hero .btn,
-  .contact-panel .btn {
+  .contact-panel .btn,
+  .trial .btn {
     width: 100%;
     text-align: center;
   }
 
   .nav-wrap {
     min-height: 68px;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    padding: 0.7rem 0;
   }
 
   .main-nav {
@@ -1008,11 +1014,15 @@ h2 {
   }
 
   .header-actions {
+    width: 100%;
     gap: 0.45rem;
+    justify-content: space-between;
+    align-items: stretch;
   }
 
   .lang-switcher {
     padding: 0.16rem;
+    order: 2;
   }
 
   .lang-btn {
@@ -1021,9 +1031,11 @@ h2 {
   }
 
   .nav-trial-btn {
-    width: auto;
+    flex: 1 1 190px;
+    text-align: center;
     padding: 0.48rem 0.68rem;
     font-size: 0.8rem;
+    order: 1;
   }
 
   .hero-cta {
@@ -1036,19 +1048,294 @@ h2 {
     padding-bottom: 3.2rem;
   }
 
-  .hero-photo {
-    height: 200px;
+  .eyebrow {
+    font-size: 0.74rem;
   }
 
-  .trust-strip {
-    margin-top: -0.55rem;
+  .hero-copy {
+    text-align: center;
+  }
+
+  .hero-title {
+    max-width: 12ch;
+    margin-inline: auto;
+  }
+
+  .lead {
+    font-size: 0.96rem;
+    line-height: 1.65;
+    margin-inline: auto;
+  }
+
+  .hero-points {
+    justify-content: center;
+  }
+
+  .hero-points span {
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero-panel {
+    padding: 1.1rem;
+    border-radius: 20px;
+  }
+
+  .hero-photo {
+    height: 220px;
+    margin-bottom: 0.85rem;
   }
 
   .section {
     padding: 3.1rem 0;
   }
 
+  h2 {
+    font-size: 2rem;
+  }
+
+  .section-intro {
+    margin-bottom: 1.25rem;
+    font-size: 0.94rem;
+  }
+
   .card-media {
-    height: 195px;
+    width: calc(100% + 2rem);
+    margin: -1rem -1rem 0.85rem;
+    height: 210px;
+  }
+
+  .card,
+  .step {
+    padding: 1rem;
+  }
+
+  .teacher-card {
+    padding-top: 1rem;
+  }
+
+  .teacher-photo {
+    width: 96px;
+    height: 96px;
+  }
+
+  .price-card,
+  .offer-card {
+    padding: 1.2rem;
+    border-radius: 20px;
+  }
+
+  .price-card h3 {
+    font-size: 1.6rem;
+    margin-bottom: 0.85rem;
+  }
+
+  .price {
+    font-size: 1.85rem;
+  }
+
+  .price-card ul {
+    gap: 0.8rem;
+    margin-top: 1.1rem;
+  }
+
+  .price-card.featured {
+    transform: none;
+  }
+
+  .currency-switcher {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 0.8rem;
+  }
+
+  .currency-btn {
+    flex: 1 1 0;
+    text-align: center;
+  }
+
+  .currency-note {
+    font-size: 0.84rem;
+    margin-bottom: 0.95rem;
+  }
+
+  .gallery-grid img {
+    height: 210px;
+  }
+
+  .review {
+    padding: 1.05rem;
+  }
+
+  .stars {
+    font-size: 1.02rem;
+  }
+
+  .trial-wrap {
+    padding: 1.15rem;
+    text-align: center;
+  }
+
+  .footer-grid {
+    gap: 1.4rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: min(100%, calc(100% - 1rem));
+  }
+
+  .site-header {
+    backdrop-filter: blur(8px);
+  }
+
+  .logo-wrap {
+    gap: 0.45rem;
+    max-width: calc(100% - 54px);
+  }
+
+  .logo {
+    font-size: 1rem;
+  }
+
+  .logo-img {
+    width: 36px;
+    height: 36px;
+  }
+
+  .hamburger {
+    width: 38px;
+    height: 38px;
+  }
+
+  .header-actions {
+    grid-template-columns: 1fr;
+    display: grid;
+  }
+
+  .lang-switcher {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .lang-btn {
+    flex: 1 1 0;
+    padding: 0.42rem 0.45rem;
+    font-size: 0.72rem;
+  }
+
+  .nav-trial-btn {
+    width: 100%;
+    flex: auto;
+  }
+
+  .main-nav {
+    top: 84px;
+  }
+
+  .hero-title {
+    font-size: clamp(1.8rem, 11vw, 2.35rem);
+    max-width: 11ch;
+  }
+
+  .lead {
+    font-size: 0.92rem;
+  }
+
+  .hero {
+    padding-top: 2.55rem;
+    padding-bottom: 2.8rem;
+  }
+
+  .hero-grid {
+    gap: 1.15rem;
+  }
+
+  .hero-photo {
+    height: 180px;
+    border-radius: 10px;
+  }
+
+  .hero-points span {
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero-panel {
+    padding: 0.95rem;
+  }
+
+  .hero-panel ul {
+    padding-left: 0.95rem;
+    gap: 0.5rem;
+  }
+
+  .section {
+    padding: 2.7rem 0;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  .section-kicker {
+    font-size: 0.74rem;
+  }
+
+  .card-media {
+    height: 180px;
+  }
+
+  .card p,
+  .step p,
+  .price-card li,
+  .section-intro,
+  .currency-note {
+    font-size: 0.91rem;
+  }
+
+  .price-card,
+  .offer-card,
+  .trial-wrap,
+  .contact-panel {
+    padding: 1rem;
+  }
+
+  .plan-tag {
+    font-size: 0.72rem;
+    padding: 0.46rem 0.78rem;
+  }
+
+  .price-card h3 {
+    font-size: 1.52rem;
+  }
+
+  .price {
+    font-size: 1.68rem;
+  }
+
+  .price-card li {
+    padding-left: 1.65rem;
+  }
+
+  .price-card-btn,
+  .panel-btn,
+  .trial .btn {
+    font-size: 0.92rem;
+  }
+
+  .gallery-grid img {
+    height: 190px;
+  }
+
+  .copyright {
+    font-size: 0.85rem;
+  }
+
+  body.is-arabic .hero-panel ul,
+  body.is-arabic .price-card li {
+    padding-right: 0;
   }
 }

@@ -512,12 +512,24 @@
 
     const savedLanguage = localStorage.getItem("ba-language") || "en";
     const savedCurrency = localStorage.getItem("ba-currency") || "usd";
+    const navToggle = document.getElementById("nav-toggle");
+
     document.querySelectorAll(".lang-btn").forEach((button) => {
       button.addEventListener("click", () => applyLanguage(button.dataset.lang));
     });
+
     document.querySelectorAll(".currency-btn").forEach((button) => {
       button.addEventListener("click", () => applyCurrency(button.dataset.currency));
     });
+
+    document.querySelectorAll(".main-nav a").forEach((link) => {
+      link.addEventListener("click", () => {
+        if (navToggle) {
+          navToggle.checked = false;
+        }
+      });
+    });
+
     applyLanguage(savedLanguage);
     applyCurrency(savedCurrency);
   </script>
