@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blessings Academy | About</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="about-page">
+  <div class="topbar">
+    <div class="container topbar-wrap">
+      <p><span data-i18n="topbar_email_label">Email:</span> blessingsacademy511@gmail.com</p>
+      <p><a class="contact-link" href="#contact-choice"><span data-i18n="topbar_phone_label">Phone & WhatsApp:</span> +201158967213</a></p>
+    </div>
+  </div>
+
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a href="index.html#top" class="logo-wrap">
+        <img class="logo-img" src="images/logo-blessings.svg" alt="Blessings Academy logo" />
+        <span class="logo">Blessings Academy</span>
+      </a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+      <label for="nav-toggle" class="hamburger" aria-label="Toggle menu" aria-controls="main-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <nav id="main-nav" class="main-nav">
+        <ul class="nav-links">
+          <li><a href="index.html#top" data-i18n="nav_home">Home</a></li>
+          <li><a href="about.html" aria-current="page" data-i18n="nav_about">About</a></li>
+          <li><a href="index.html#courses" data-i18n="nav_courses">Courses</a></li>
+          <li><a href="fees.html" data-i18n="nav_fees">Fees</a></li>
+          <li><a href="index.html#teachers" data-i18n="nav_teachers">Teachers</a></li>
+          <li><a href="#contact" data-i18n="nav_contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <div class="lang-switcher" aria-label="Language switcher">
+          <button class="lang-btn is-active" type="button" data-lang="en">English</button>
+          <button class="lang-btn" type="button" data-lang="ar">&#1575;&#1604;&#1593;&#1585;&#1576;&#1610;&#1577;</button>
+        </div>
+        <a class="btn btn-primary nav-trial-btn" href="#trial" data-i18n="nav_trial">Free Trial</a>
+      </div>
+    </div>
+  </header>
+
+  <section id="contact-choice" class="contact-modal">
+    <a class="contact-backdrop" href="#top" aria-label="Close"></a>
+    <div class="contact-panel">
+      <h3 data-i18n="contact_title">Contact Blessings Academy</h3>
+      <p data-i18n="contact_intro">Choose how you want to contact us:</p>
+      <div class="contact-actions">
+        <a class="btn btn-primary" href="tel:+201158967213"><span data-i18n="contact_call">Call</span> +201158967213</a>
+        <a class="btn btn-ghost" href="https://wa.me/201158967213" target="_blank" rel="noopener noreferrer">WhatsApp +201158967213</a>
+        <a class="btn btn-ghost" href="https://www.instagram.com/blessings_academy_a/" target="_blank" rel="noopener noreferrer"><span data-i18n="contact_instagram">Instagram</span></a>
+      </div>
+      <a class="contact-close" href="#top" data-i18n="contact_close">Close</a>
+    </div>
+  </section>
+
+  <main>
+    <section class="page-hero about-hero">
+      <div class="container about-hero-copy">
+        <p class="section-kicker" data-i18n="about_kicker">WELCOME TO BLESSINGS ACADEMY</p>
+        <h1 data-i18n="about_title">About Blessings Academy</h1>
+        <p class="about-page-subtitle" data-i18n="about_page_intro_2">No matter where you are in the world, we welcome you to start your learning journey with us.</p>
+        <p class="about-page-body" data-i18n="about_page_intro_1">Blessings Academy provides online teaching services to Muslims around the world. From Quran recitation correction, memorization, Tajweed, and Tafsir to Arabic and Islamic studies, our native Egyptian Arabic-speaking teachers are dedicated to helping students of all ages and levels learn the Quran and Quranic Arabic online.</p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="https://wa.me/201158967213" target="_blank" rel="noopener noreferrer" data-i18n="about_page_cta">Start on WhatsApp</a>
+          <a class="btn btn-ghost" href="index.html#top" data-i18n="about_page_back">Back to Home</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="trial" class="trial">
+      <div class="container trial-wrap">
+        <div>
+          <p class="section-kicker" data-i18n="trial_kicker">Free Trial</p>
+          <h2 data-i18n="trial_title">Get Your First Lesson for Free</h2>
+        </div>
+        <a class="btn btn-primary" href="https://wa.me/201158967213" target="_blank" rel="noopener noreferrer" data-i18n="trial_cta">Register Here</a>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact" class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3 class="footer-brand"><img class="footer-logo" src="images/logo-blessings.svg" alt="Blessings Academy logo" />Blessings Academy</h3>
+        <p data-i18n="footer_intro">Dedicated to Quran, Arabic, and Islamic education for students worldwide.</p>
+      </div>
+      <div>
+        <h4 data-i18n="footer_contact">Contact</h4>
+        <p>blessingsacademy511@gmail.com</p>
+        <p><a href="#contact-choice">+201158967213 (<span data-i18n="footer_call">Call / WhatsApp</span>)</a></p>
+        <p><a href="https://www.instagram.com/blessings_academy_a/" target="_blank" rel="noopener noreferrer"><span data-i18n="footer_instagram">Instagram</span>: @blessings_academy_a</a></p>
+      </div>
+      <div>
+        <h4 data-i18n="footer_links">Useful Links</h4>
+        <p><a href="#trial" data-i18n="footer_trial">Free Trial</a></p>
+        <p><a href="index.html#courses" data-i18n="footer_courses">Courses</a></p>
+        <p><a href="fees.html" data-i18n="footer_fees">Fees</a></p>
+      </div>
+    </div>
+    <div class="copyright" data-i18n="copyright">Copyright 2026 - Blessings Academy. All Rights Reserved.</div>
+  </footer>
+
+  <script>
+    const englishTranslations = {};
+    document.querySelectorAll("[data-i18n]").forEach((node) => {
+      englishTranslations[node.dataset.i18n] = node.textContent;
+    });
+    document.querySelectorAll("[data-i18n-html]").forEach((node) => {
+      englishTranslations[node.dataset.i18nHtml] = node.innerHTML;
+    });
+
+    const translations = {
+      en: englishTranslations,
+      ar: {
+        topbar_email_label: "البريد الإلكتروني:",
+        topbar_phone_label: "الهاتف وواتساب:",
+        nav_home: "الرئيسية",
+        nav_about: "من نحن",
+        nav_courses: "الدورات",
+        nav_fees: "الرسوم",
+        nav_teachers: "المعلمون",
+        nav_contact: "التواصل",
+        nav_trial: "حصة تجريبية",
+        contact_title: "تواصل مع Blessings Academy",
+        contact_intro: "اختر الطريقة المناسبة للتواصل معنا:",
+        contact_call: "اتصل",
+        contact_instagram: "إنستغرام",
+        contact_close: "إغلاق",
+        about_kicker: "مرحبًا بكم في Blessings Academy",
+        about_title: "عن Blessings Academy",
+        about_page_intro_1: "تقدم Blessings Academy خدمات تعليمية أونلاين للمسلمين حول العالم. من تصحيح تلاوة القرآن والحفظ والتجويد والتفسير إلى اللغة العربية والدراسات الإسلامية، يكرس معلمونا الناطقون بالعربية المصرية جهودهم لمساعدة الطلاب من جميع الأعمار والمستويات على تعلّم القرآن والعربية القرآنية عبر الإنترنت.",
+        about_page_intro_2: "أينما كنت في العالم، يسعدنا أن نرحب بك لتبدأ رحلتك التعليمية معنا.",
+        about_page_cta: "ابدأ عبر واتساب",
+        about_page_back: "العودة إلى الرئيسية",
+        trial_kicker: "حصة مجانية",
+        trial_title: "احصل على أول درس مجانًا",
+        trial_cta: "سجل هنا",
+        footer_intro: "نقدّم تعليم القرآن واللغة العربية والدراسات الإسلامية للطلاب حول العالم.",
+        footer_contact: "التواصل",
+        footer_call: "اتصال / واتساب",
+        footer_instagram: "إنستغرام",
+        footer_links: "روابط مهمة",
+        footer_trial: "حصة مجانية",
+        footer_courses: "الدورات",
+        footer_fees: "الرسوم",
+        copyright: "حقوق النشر 2026 - Blessings Academy. جميع الحقوق محفوظة."
+      }
+    };
+
+    const applyLanguage = (lang) => {
+      const isArabic = lang === "ar";
+      document.documentElement.lang = isArabic ? "ar" : "en";
+      document.documentElement.dir = isArabic ? "rtl" : "ltr";
+      document.body.classList.toggle("is-arabic", isArabic);
+
+      document.querySelectorAll("[data-i18n]").forEach((node) => {
+        const key = node.dataset.i18n;
+        const value = translations[lang]?.[key] ?? translations.en[key];
+        if (value) node.textContent = value;
+      });
+
+      document.querySelectorAll("[data-i18n-html]").forEach((node) => {
+        const key = node.dataset.i18nHtml;
+        const value = translations[lang]?.[key] ?? translations.en[key];
+        if (value) node.innerHTML = value;
+      });
+
+      document.querySelectorAll(".lang-btn").forEach((button) => {
+        button.classList.toggle("is-active", button.dataset.lang === lang);
+      });
+
+      localStorage.setItem("ba-language", lang);
+    };
+
+    const savedLanguage = localStorage.getItem("ba-language") || "en";
+    const navToggle = document.getElementById("nav-toggle");
+
+    document.querySelectorAll(".lang-btn").forEach((button) => {
+      button.addEventListener("click", () => applyLanguage(button.dataset.lang));
+    });
+
+    document.querySelectorAll(".main-nav a").forEach((link) => {
+      link.addEventListener("click", () => {
+        if (navToggle) {
+          navToggle.checked = false;
+        }
+      });
+    });
+
+    applyLanguage(savedLanguage);
+  </script>
+</body>
+</html>

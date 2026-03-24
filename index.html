@@ -33,9 +33,9 @@
       <nav id="main-nav" class="main-nav">
         <ul class="nav-links">
           <li><a href="#top" data-i18n="nav_home">Home</a></li>
-          <li><a href="#about" data-i18n="nav_about">About</a></li>
+          <li><a href="about.html" data-i18n="nav_about">About</a></li>
           <li><a href="#courses" data-i18n="nav_courses">Courses</a></li>
-          <li><a href="#fees" data-i18n="nav_fees">Fees</a></li>
+          <li><a href="fees.html" data-i18n="nav_fees">Fees</a></li>
           <li><a href="#teachers" data-i18n="nav_teachers">Teachers</a></li>
           <li><a href="#contact" data-i18n="nav_contact">Contact</a></li>
         </ul>
@@ -133,70 +133,42 @@
 
     <section id="about" class="section">
       <div class="container">
-        <p class="section-kicker" data-i18n="about_kicker">WELCOME TO BLESSINGS ACADEMY</p>
-        <h2 data-i18n="about_title">About Blessings Academy</h2>
-        <p class="section-intro" data-i18n="about_intro">
-          Blessings Academy provides online teaching services to Muslims around the world. From Qurâ€™an recitation correction,
-          memorization, Tajweed, and Tafsir to Arabic and Islamic studies, our native Egyptian Arabic-speaking teachers are
-          dedicated to helping students of all ages and levels learn the Qurâ€™an and Qurâ€™anic Arabic online.
-        </p>
-        <p class="section-intro">
-          No matter where you are in the world, we welcome you to start your learning journey with us.
-        </p>
+        <div class="fees-preview">
+          <div class="fees-preview-copy">
+            <p class="section-kicker" data-i18n="about_preview_kicker">Welcome to Blessings Academy</p>
+            <h2 data-i18n="about_preview_title">Read more about Blessings Academy</h2>
+            <p class="section-intro" data-i18n="about_preview_intro">Open the About page to learn about our mission, our teachers, and how we help students of all ages learn Quran, Arabic, and Islamic studies online.</p>
+          </div>
+          <div class="fees-preview-actions">
+            <a class="btn btn-primary" href="about.html" data-i18n="about_preview_cta">Open About Page</a>
+            <a class="btn btn-ghost" href="https://wa.me/201158967213" target="_blank" rel="noopener noreferrer" data-i18n="about_preview_secondary">Ask on WhatsApp</a>
+          </div>
+        </div>
       </div>
     </section>
 
     <section id="fees" class="section section-alt">
       <div class="container">
-        <p class="section-kicker" data-i18n="fees_kicker">Affordable Plans</p>
-        <h2 data-i18n="fees_title">Monthly Fees</h2>
-        <p class="section-intro" data-i18n="fees_intro">Pick the plan that matches your learning pace.</p>
-        <div class="currency-switcher" aria-label="Currency switcher">
-          <button class="currency-btn is-active" type="button" data-currency="usd">USD</button>
-          <button class="currency-btn" type="button" data-currency="gbp">GBP</button>
+        <div class="fees-preview">
+          <div class="fees-preview-copy">
+            <p class="section-kicker" data-i18n="fees_preview_kicker">Monthly Fees</p>
+            <h2 data-i18n="fees_preview_title">Choose by lesson length</h2>
+          </div>
+          <div class="fees-preview-grid">
+            <article class="fees-mini-card">
+              <p class="duration-chip" data-i18n="fees_preview_duration_30">30 Minutes</p>
+              <p class="fees-mini-copy" data-i18n="fees_preview_text_30">Gentle and consistent. Short lessons for younger students and steady weekly progress.</p>
+            </article>
+            <article class="fees-mini-card">
+              <p class="duration-chip" data-i18n="fees_preview_duration_45">45 Minutes</p>
+              <p class="fees-mini-copy" data-i18n="fees_preview_text_45">Balanced depth and pace. A balanced session length with more time for guided practice and revision.</p>
+            </article>
+            <article class="fees-mini-card">
+              <p class="duration-chip" data-i18n="fees_preview_duration_60">1 Hour</p>
+              <p class="fees-mini-copy" data-i18n="fees_preview_text_60">Focused longer sessions. Extended classes for deeper focus, memorization, and advanced learning goals.</p>
+            </article>
+          </div>
         </div>
-        <p class="currency-note" data-i18n="currency_note">GBP prices use a USD/GBP market rate of 0.7510.</p>
-        <div class="pricing">
-          <article class="price-card">
-            <p class="plan-tag" data-i18n="plan_1_tag">Best for Beginners</p>
-            <h3 data-i18n="plan_1_title">Starter</h3>
-            <p class="price"><span class="price-value" data-usd="20">$20</span><span data-i18n="price_suffix">/month</span></p>
-            <ul>
-              <li data-i18n="plan_1_item_1">1 class per week</li>
-              <li data-i18n="plan_1_item_2">30 minutes per class</li>
-              <li data-i18n="plan_1_item_3">Basic progress tracking</li>
-            </ul>
-            <a class="btn btn-primary price-card-btn" href="https://wa.me/201158967213" target="_blank" rel="noopener noreferrer" data-i18n="plan_trial_cta">Go to the Free Trial</a>
-          </article>
-          <article class="price-card featured">
-            <p class="plan-tag" data-i18n="plan_2_tag">Most Popular</p>
-            <h3 data-i18n="plan_2_title">Standard</h3>
-            <p class="price"><span class="price-value" data-usd="55">$55</span><span data-i18n="price_suffix">/month</span></p>
-            <ul>
-              <li data-i18n="plan_2_item_1">3 classes per week</li>
-              <li data-i18n="plan_2_item_2">30 minutes per class</li>
-              <li data-i18n="plan_2_item_3">Weekly feedback updates</li>
-            </ul>
-            <a class="btn btn-primary price-card-btn" href="https://wa.me/201158967213" target="_blank" rel="noopener noreferrer" data-i18n="plan_trial_cta">Go to the Free Trial</a>
-          </article>
-          <article class="price-card">
-            <p class="plan-tag" data-i18n="plan_3_tag">Fast Progress</p>
-            <h3 data-i18n="plan_3_title">Intensive</h3>
-            <p class="price"><span class="price-value" data-usd="80">$80</span><span data-i18n="price_suffix">/month</span></p>
-            <ul>
-              <li data-i18n="plan_3_item_1">4 classes per week</li>
-              <li data-i18n="plan_3_item_2">30 minutes per class</li>
-              <li data-i18n="plan_3_item_3">Priority support and timing</li>
-            </ul>
-            <a class="btn btn-primary price-card-btn" href="https://wa.me/201158967213" target="_blank" rel="noopener noreferrer" data-i18n="plan_trial_cta">Go to the Free Trial</a>
-          </article>
-        </div>
-        <article class="offer-card">
-          <p class="plan-tag" data-i18n="offer_tag">Special Offer</p>
-          <h3 data-i18n="offer_title">Siblings & Friends Offer</h3>
-          <p data-i18n="offer_text">Join with your sibling or friend and ask us on WhatsApp about our special shared offers and discounted plans.</p>
-          <a class="btn btn-primary price-card-btn" href="https://wa.me/201158967213" target="_blank" rel="noopener noreferrer" data-i18n="offer_cta">Ask on WhatsApp</a>
-        </article>
       </div>
     </section>
 
@@ -252,7 +224,7 @@
         <h4 data-i18n="footer_links">Useful Links</h4>
         <p><a href="#trial" data-i18n="footer_trial">Free Trial</a></p>
         <p><a href="#courses" data-i18n="footer_courses">Courses</a></p>
-        <p><a href="#fees" data-i18n="footer_fees">Fees</a></p>
+        <p><a href="fees.html" data-i18n="footer_fees">Fees</a></p>
       </div>
     </div>
     <div class="copyright" data-i18n="copyright">Copyright 2026 - Blessings Academy. All Rights Reserved.</div>
@@ -329,6 +301,11 @@
         about_kicker: "مرحبًا بكم في Blessings Academy",
         about_title: "عن Blessings Academy",
         about_intro: "تقدم Blessings Academy خدمات تعليمية أونلاين للمسلمين حول العالم. من تصحيح تلاوة القرآن والحفظ والتجويد والتفسير إلى اللغة العربية والدراسات الإسلامية، يكرس معلمونا الناطقون بالعربية المصرية جهودهم لمساعدة الطلاب من جميع الأعمار والمستويات على تعلم القرآن والعربية القرآنية عبر الإنترنت.",
+        about_preview_kicker: "مرحبًا بكم في Blessings Academy",
+        about_preview_title: "اقرأ المزيد عن Blessings Academy",
+        about_preview_intro: "افتح صفحة من نحن للتعرّف على رسالتنا ومعلمينا وكيف نساعد الطلاب من جميع الأعمار على تعلّم القرآن والعربية والدراسات الإسلامية أونلاين.",
+        about_preview_cta: "افتح صفحة من نحن",
+        about_preview_secondary: "اسأل على واتساب",
         step_1_title: "اطلب حصة تجريبية",
         step_1_text: "شارك الأيام والأوقات المناسبة لك مع فريق الدعم.",
         step_2_title: "خذ حصة تقييم",
@@ -338,6 +315,11 @@
         fees_kicker: "خطط مناسبة",
         fees_title: "الرسوم الشهرية",
         fees_intro: "اختر الخطة التي تناسب سرعتك في التعلم.",
+        fees_preview_kicker: "الرسوم الشهرية",
+        fees_preview_title: "افتح صفحة الرسوم الكاملة",
+        fees_preview_intro: "تصفح جميع خطط 30 دقيقة و45 دقيقة وساعة كاملة في صفحة مستقلة تعرض الرسوم الشهرية بالدولار واليورو.",
+        fees_preview_cta: "عرض كل الرسوم",
+        fees_preview_secondary: "اسأل على واتساب",
         plan_1_tag: "الأفضل للمبتدئين",
         plan_1_title: "المبتدئ",
         plan_1_item_1: "حصة واحدة أسبوعيًا",
@@ -444,9 +426,22 @@
       teacher_3_text: "شرح واضح ومراجعة مستمرة وأسلوب تدريسي مشجع ومحفّز.",
       about_title: "عن Blessings Academy",
       about_intro: "تقدم Blessings Academy خدمات تعليمية أونلاين للمسلمين حول العالم. من تصحيح التلاوة والحفظ والتجويد والتفسير إلى اللغة العربية والدراسات الإسلامية، يحرص معلمونا على مساعدة الطلاب من جميع الأعمار والمستويات على تعلّم القرآن والعربية القرآنية بثقة وإتقان.",
+      about_preview_kicker: "مرحبًا بكم في Blessings Academy",
+      about_preview_title: "اقرأ المزيد عن Blessings Academy",
+      about_preview_intro: "افتح صفحة من نحن للتعرّف على رسالتنا ومعلمينا وكيف نساعد الطلاب من جميع الأعمار على تعلّم القرآن والعربية والدراسات الإسلامية أونلاين.",
+      about_preview_cta: "افتح صفحة من نحن",
+      about_preview_secondary: "اسأل على واتساب",
       fees_kicker: "خطط مناسبة",
       fees_title: "الرسوم الشهرية",
       fees_intro: "اختر الخطة التي تناسب مستواك وسرعة تقدمك.",
+      fees_preview_kicker: "الرسوم الشهرية",
+      fees_preview_title: "اختر حسب مدة الحصة",
+      fees_preview_duration_30: "30 دقيقة",
+      fees_preview_text_30: "خيار هادئ ومنظم. دروس قصيرة مناسبة للطلاب الأصغر سنًا وللتقدم الأسبوعي المنتظم.",
+      fees_preview_duration_45: "45 دقيقة",
+      fees_preview_text_45: "توازن جميل في المدة. وقت أكبر للتطبيق والمراجعة مع المعلم.",
+      fees_preview_duration_60: "ساعة كاملة",
+      fees_preview_text_60: "جلسات أطول بتركيز أعلى. مناسبة للتركيز العميق والحفظ والأهداف التعليمية المتقدمة.",
       plan_1_tag: "مناسبة للمبتدئين",
       plan_2_tag: "الأكثر طلبًا",
       plan_3_tag: "للتقدم السريع",

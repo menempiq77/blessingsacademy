@@ -133,6 +133,10 @@ body.is-arabic .footer-brand {
   font-size: 0.95rem;
 }
 
+.nav-links a[aria-current="page"] {
+  color: var(--green-800);
+}
+
 .nav-toggle {
   position: absolute;
   opacity: 0;
@@ -758,6 +762,844 @@ h2 {
   color: #1d7b42;
 }
 
+.fees-preview {
+  display: grid;
+  gap: 1.35rem;
+  padding: 1.85rem;
+  border: 1px solid #d8f3e4;
+  border-radius: 24px;
+  background:
+    radial-gradient(circle at top left, rgba(143, 214, 168, 0.22), transparent 28%),
+    linear-gradient(135deg, #ffffff 0%, #f4fbf7 100%);
+  box-shadow: 0 20px 38px rgba(10, 66, 36, 0.08);
+}
+
+.fees-preview-copy .section-intro {
+  margin-bottom: 0;
+  max-width: 60ch;
+}
+
+.fees-preview-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.fees-mini-card {
+  padding: 1.2rem;
+  border-radius: 22px;
+  border: 1px solid rgba(131, 191, 152, 0.28);
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow: 0 16px 28px rgba(10, 66, 36, 0.06);
+}
+
+.fees-mini-card .duration-chip {
+  margin-bottom: 0.75rem;
+}
+
+.fees-mini-copy {
+  margin: 0;
+  color: #355f46;
+  font-size: 0.92rem;
+  line-height: 1.7;
+}
+
+.page-hero {
+  position: relative;
+  overflow: hidden;
+  padding: 4.8rem 0 4.15rem;
+  background:
+    linear-gradient(135deg, rgba(246, 252, 248, 0.96) 0%, rgba(232, 248, 238, 0.94) 55%, rgba(216, 241, 223, 0.92) 100%),
+    url("images/real/IMG-20260314-WA0008.jpg") center center / cover no-repeat;
+}
+
+.page-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 18% 18%, rgba(49, 148, 86, 0.18), transparent 22%),
+    radial-gradient(circle at 82% 22%, rgba(121, 204, 148, 0.2), transparent 24%);
+  pointer-events: none;
+}
+
+.page-hero-grid {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.page-hero h1 {
+  margin: 0.35rem 0 0;
+  color: var(--green-950);
+  font-family: "Sora", "Cairo", sans-serif;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  max-width: 14ch;
+}
+
+.page-hero .lead {
+  color: #214a32;
+  text-shadow: none;
+  max-width: 58ch;
+}
+
+.page-hero-card {
+  background: rgba(255, 255, 255, 0.88);
+  border: 1px solid rgba(60, 136, 91, 0.24);
+  border-radius: 24px;
+  padding: 1.5rem;
+  box-shadow: 0 18px 34px rgba(10, 66, 36, 0.09);
+  backdrop-filter: blur(4px);
+}
+
+.page-hero-card h2 {
+  font-size: clamp(1.55rem, 3.1vw, 2.2rem);
+  margin-bottom: 1rem;
+}
+
+.page-hero-card ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.85rem;
+}
+
+.page-hero-card li {
+  position: relative;
+  padding-left: 1.8rem;
+  color: #234a33;
+  line-height: 1.65;
+}
+
+.page-hero-card li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.45rem;
+  width: 0.9rem;
+  height: 0.9rem;
+  border-radius: 999px;
+  background:
+    radial-gradient(circle at center, #2c8f4d 0 34%, transparent 36%),
+    linear-gradient(135deg, #b7eac8 0%, #76c791 100%);
+  box-shadow: 0 0 0 4px rgba(181, 230, 197, 0.45);
+}
+
+.fee-duration-block + .fee-duration-block {
+  margin-top: 2.25rem;
+}
+
+.fee-duration-heading {
+  margin-bottom: 1.2rem;
+}
+
+.fee-duration-heading .section-intro {
+  margin-bottom: 0;
+}
+
+.duration-chip {
+  display: inline-block;
+  margin: 0 0 0.55rem;
+  padding: 0.58rem 0.9rem;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #dbf2e4 0%, #eff9f2 100%);
+  color: #21603c;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.fee-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 1.15rem;
+  align-items: start;
+}
+
+.fee-plan-card {
+  min-height: 0;
+  gap: 0.8rem;
+  padding: 1.05rem;
+}
+
+.fee-plan-card h3 {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.25;
+  white-space: nowrap;
+}
+
+.fee-plan-card .plan-tag {
+  align-self: flex-start;
+  white-space: nowrap;
+  margin-bottom: 0.2rem;
+}
+
+.fee-price-pair {
+  align-self: flex-start;
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 0.35rem;
+  margin: 0;
+  padding: 0.62rem 0.9rem;
+  width: fit-content;
+  border-radius: 16px;
+  background: #eef9f2;
+  border: 1px solid #d7efdf;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.85);
+  color: var(--green-800);
+  direction: ltr;
+  font-size: 1.4rem;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.fee-price-pair span {
+  display: inline-block;
+  min-width: 0;
+  padding: 0;
+}
+
+.fee-price-pair span + span {
+  position: relative;
+  padding-left: 0.95rem;
+}
+
+.fee-price-pair span + span::before {
+  content: "/";
+  position: absolute;
+  left: 0.18rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #7aa58a;
+  font-weight: 700;
+}
+
+.fee-note {
+  margin: 0;
+  color: #355f46;
+  font-size: 0.8rem;
+  line-height: 1.35;
+  white-space: nowrap;
+}
+
+.fee-help-card {
+  margin-top: 2rem;
+}
+
+.fee-plan-card .price-card-btn {
+  margin-top: 0.4rem;
+}
+
+.fees-page .page-hero {
+  padding: 3.35rem 0 2.7rem;
+}
+
+.fees-page .page-hero::before {
+  opacity: 0.55;
+}
+
+.fees-page .page-hero-grid {
+  grid-template-columns: minmax(0, 1.1fr) minmax(300px, 400px);
+  gap: 1.2rem;
+  align-items: start;
+}
+
+.fees-page .page-hero h1 {
+  max-width: 12ch;
+  font-size: clamp(1.45rem, 2.4vw, 2rem);
+  line-height: 1.15;
+}
+
+.fees-page .page-hero .lead {
+  max-width: 34ch;
+  margin-top: 0.95rem;
+  font-size: 1.02rem;
+  line-height: 1.55;
+}
+
+.fees-page .hero-cta {
+  margin-top: 1rem;
+}
+
+.fees-page .page-hero-card {
+  max-width: 400px;
+  justify-self: end;
+  padding: 1.2rem 1.25rem;
+  border-radius: 20px;
+  box-shadow: 0 14px 28px rgba(10, 66, 36, 0.07);
+}
+
+.fees-page .page-hero-card h2 {
+  margin-bottom: 0.8rem;
+  font-size: clamp(1.45rem, 2.4vw, 2rem);
+  line-height: 1.15;
+}
+
+.fees-page .page-hero-card ul {
+  gap: 0.7rem;
+}
+
+.fees-page .page-hero-card li {
+  padding-left: 1.55rem;
+  font-size: 0.95rem;
+  line-height: 1.45;
+}
+
+.fees-page .page-hero-card li::before {
+  width: 0.82rem;
+  height: 0.82rem;
+}
+
+.fees-page {
+  position: relative;
+  isolation: isolate;
+  font-family: "Manrope", "Cairo", sans-serif;
+  background: linear-gradient(180deg, rgba(8, 24, 16, 0.86) 0%, rgba(12, 30, 21, 0.82) 100%);
+}
+
+body.fees-page::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background:
+    linear-gradient(180deg, rgba(4, 16, 10, 0.86) 0%, rgba(7, 21, 14, 0.8) 42%, rgba(8, 22, 15, 0.88) 100%),
+    url("images/real/hero-mosque.jpg") center center / cover no-repeat;
+  z-index: -2;
+  pointer-events: none;
+}
+
+body.fees-page::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background:
+    radial-gradient(circle at 18% 18%, rgba(121, 204, 148, 0.14), transparent 24%),
+    radial-gradient(circle at 82% 14%, rgba(255, 255, 255, 0.07), transparent 18%);
+  z-index: -1;
+  pointer-events: none;
+}
+
+.fees-page-main {
+  padding: 1.2rem 0 3.25rem;
+}
+
+.fees-page-main .container {
+  width: min(1540px, 96%);
+}
+
+body.fees-page.is-arabic {
+  font-family: "Cairo", sans-serif;
+}
+
+.fees-focus-section {
+  padding-top: 2.2rem;
+  padding-bottom: 2.8rem;
+}
+
+.fees-focus-wrap {
+  display: grid;
+  gap: 1.6rem;
+  justify-items: center;
+}
+
+.fees-focus-panel {
+  position: static;
+  width: min(100%, 860px);
+  padding: 1.6rem;
+  text-align: center;
+}
+
+.fees-focus-panel .duration-chip {
+  margin-inline: auto;
+}
+
+.fees-focus-panel .fee-duration-copy {
+  max-width: none;
+  margin-inline: auto;
+  white-space: nowrap;
+}
+
+.fees-focus-panel .fee-duration-badges {
+  justify-content: center;
+}
+
+.fees-focus-wrap .fee-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 1rem;
+  width: 100%;
+  max-width: none;
+}
+
+.fees-focus-wrap .fee-plan-card {
+  min-width: 0;
+}
+
+.fees-page .fees-hero {
+  padding: 2.75rem 0 2.2rem;
+  background:
+    linear-gradient(135deg, rgba(247, 252, 249, 0.985) 0%, rgba(236, 247, 240, 0.955) 100%),
+    url("images/real/IMG-20260314-WA0008.jpg") center center / cover no-repeat;
+}
+
+.fees-page .fees-hero::before {
+  opacity: 0.3;
+}
+
+.fees-hero-shell {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: minmax(0, 1.12fr) minmax(280px, 360px);
+  gap: 1.55rem;
+  align-items: start;
+}
+
+.fees-hero-copy {
+  max-width: 760px;
+}
+
+.fees-page .fees-hero h1 {
+  margin-top: 0.25rem;
+  max-width: none;
+  white-space: nowrap;
+  font-size: clamp(1.5rem, 2.2vw, 2.35rem);
+  line-height: 1.05;
+  letter-spacing: -0.05em;
+}
+
+.fees-jump-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  margin-top: 0.95rem;
+}
+
+.fees-jump-chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.62rem 0.95rem;
+  border-radius: 999px;
+  border: 1px solid #c9e5d4;
+  background: rgba(255, 255, 255, 0.86);
+  color: #1f5b38;
+  text-decoration: none;
+  font-size: 0.92rem;
+  font-weight: 700;
+  box-shadow: 0 12px 24px rgba(10, 66, 36, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.fees-jump-chip:hover {
+  transform: translateY(-2px);
+  border-color: #8ac7a1;
+  box-shadow: 0 16px 26px rgba(10, 66, 36, 0.08);
+}
+
+.fees-summary-section {
+  padding-top: 2rem;
+}
+
+.fees-included-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.95rem 1.05rem;
+  border-radius: 22px;
+  border: 1px solid #d8f0e2;
+  background:
+    radial-gradient(circle at top left, rgba(137, 211, 163, 0.12), transparent 28%),
+    rgba(255, 255, 255, 0.94);
+  box-shadow: 0 16px 30px rgba(10, 66, 36, 0.05);
+}
+
+.fees-included-text {
+  margin: 0;
+  color: #16462c;
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+.fees-included-points {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+}
+
+.fees-included-points span {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.48rem 0.75rem;
+  border-radius: 999px;
+  background: #eef9f2;
+  color: #2b6942;
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.fees-summary-head {
+  margin-top: 1.5rem;
+}
+
+.fees-overview-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.fees-overview-card {
+  position: relative;
+  background: #ffffff;
+  border: 1px solid rgba(131, 191, 152, 0.28);
+  border-radius: 24px;
+  padding: 1.2rem;
+  box-shadow: 0 18px 34px rgba(10, 66, 36, 0.06);
+  transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
+}
+
+.fees-overview-card::before {
+  content: "";
+  position: absolute;
+  inset: 0 auto auto 0;
+  width: 100%;
+  height: 5px;
+  border-radius: 24px 24px 0 0;
+  background: linear-gradient(90deg, rgba(121, 204, 148, 0.9) 0%, rgba(42, 140, 75, 0.85) 100%);
+  opacity: 0.28;
+}
+
+.fees-overview-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(73, 150, 98, 0.34);
+  box-shadow: 0 24px 40px rgba(10, 66, 36, 0.09);
+}
+
+.fees-overview-card h3 {
+  margin: 0.28rem 0 0.6rem;
+  color: var(--green-900);
+  font-size: 1.2rem;
+  letter-spacing: -0.03em;
+}
+
+.fees-overview-card p {
+  margin: 0;
+  color: #345b43;
+  line-height: 1.65;
+}
+
+.fees-overview-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin-top: 1rem;
+}
+
+.fees-overview-meta span {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.45rem 0.68rem;
+  border-radius: 999px;
+  background: #eff9f2;
+  color: #215d3c;
+  font-size: 0.83rem;
+  font-weight: 800;
+}
+
+.fees-overview-link {
+  display: inline-flex;
+  margin-top: 1rem;
+  color: #1f6f41;
+  text-decoration: none;
+  font-weight: 800;
+}
+
+.fees-duration-section {
+  scroll-margin-top: 100px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.fee-duration-shell {
+  display: grid;
+  grid-template-columns: minmax(250px, 300px) minmax(0, 1fr);
+  gap: 1.3rem;
+  align-items: start;
+}
+
+.fee-duration-panel {
+  position: static;
+  top: auto;
+  padding: 1.35rem;
+  border-radius: 26px;
+  border: 1px solid #d8f0e2;
+  background:
+    radial-gradient(circle at top left, rgba(143, 214, 168, 0.16), transparent 28%),
+    linear-gradient(180deg, #ffffff 0%, #f7fcf9 100%);
+  box-shadow: 0 20px 34px rgba(10, 66, 36, 0.07);
+}
+
+.fee-duration-label {
+  margin: 0.85rem 0 0.15rem;
+  color: #4e7e61;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.fee-duration-range {
+  margin: 0;
+  color: var(--green-900);
+  font-size: 1.72rem;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+}
+
+.fee-duration-copy {
+  margin: 0.8rem 0 0;
+  color: #355f46;
+  line-height: 1.72;
+  max-width: 27ch;
+}
+
+.fee-duration-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin-top: 1rem;
+}
+
+.fee-duration-badges span {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.48rem 0.72rem;
+  border-radius: 999px;
+  background: #eef9f2;
+  color: #2b6942;
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.fees-page .fee-grid {
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+}
+
+.fees-page .fee-plan-card {
+  align-items: center;
+  gap: 0.85rem;
+  padding: 1.15rem;
+  border-radius: 24px;
+  text-align: center;
+}
+
+.fees-page .fee-plan-card h3 {
+  font-size: 1.04rem;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+
+.fees-page .fee-plan-card .plan-tag {
+  align-self: center;
+  font-size: 0.75rem;
+  margin-bottom: 0.1rem;
+  text-align: center;
+}
+
+.fees-page .fee-price-pair {
+  align-self: center;
+  padding: 0.74rem 0.96rem;
+  border-radius: 18px;
+  background: linear-gradient(135deg, #eef9f2 0%, #ffffff 100%);
+  border-color: #d6ecde;
+  font-size: 1.28rem;
+}
+
+.fees-page .fee-note {
+  align-self: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.45rem 0.7rem;
+  border-radius: 999px;
+  border: 1px solid #e1f1e7;
+  background: #f4fbf7;
+  color: #2d6343;
+  font-size: 0.79rem;
+  line-height: 1.25;
+  white-space: nowrap;
+}
+
+.fees-page .price-card-btn {
+  margin-top: auto;
+  align-self: center;
+}
+
+.fee-help-card {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 1.6rem;
+  text-align: center;
+}
+
+.fee-help-card .plan-tag {
+  margin-bottom: 0.55rem;
+}
+
+.fee-help-card h3 {
+  margin: 0;
+  font-size: clamp(1.45rem, 2.2vw, 2rem);
+  letter-spacing: -0.03em;
+}
+
+.fee-help-card p:last-of-type {
+  max-width: 54ch;
+  margin: 0.8rem auto 0.35rem;
+}
+
+.fee-help-card .price-card-btn {
+  max-width: 260px;
+  margin-inline: auto;
+}
+
+body.is-arabic .fees-jump-list,
+body.is-arabic .fees-included-points,
+body.is-arabic .fee-duration-badges,
+body.is-arabic .fees-overview-meta {
+  direction: rtl;
+}
+
+.about-hero {
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.94) 0%, rgba(245, 251, 247, 0.93) 52%, rgba(236, 247, 240, 0.92) 100%),
+    radial-gradient(circle at top left, rgba(121, 204, 148, 0.16), transparent 24%),
+    url("images/real/hero-mosque.jpg") center center / cover no-repeat;
+  padding: 3.2rem 0 2.8rem;
+}
+
+.about-hero-copy {
+  position: relative;
+  z-index: 1;
+  max-width: 1180px;
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(280px, 0.72fr);
+  gap: 1rem 2.1rem;
+  align-items: start;
+}
+
+.about-page {
+  font-family: "Manrope", "Cairo", sans-serif;
+}
+
+.about-page .section-kicker {
+  grid-column: 1 / -1;
+  margin-bottom: 0.15rem;
+  justify-self: center;
+  text-align: center;
+}
+
+.about-page .hero-cta {
+  grid-column: 1 / -1;
+  justify-content: center;
+  margin-top: 0.35rem;
+}
+
+.about-hero h1 {
+  grid-column: 1 / -1;
+  justify-self: center;
+  width: 100%;
+  max-width: none;
+  margin-top: 0;
+  text-align: center;
+  white-space: nowrap;
+  font-size: clamp(1.3rem, 4vw, 3.5rem);
+  line-height: 1.08;
+}
+
+.about-page-subtitle {
+  grid-column: 1 / -1;
+  justify-self: center;
+  max-width: 34ch;
+  margin: 0 auto 0.15rem;
+  padding: 0.95rem 1.25rem;
+  border-radius: 22px;
+  border: 1px solid rgba(153, 206, 172, 0.42);
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.96) 0%, rgba(239, 249, 243, 0.96) 100%);
+  box-shadow: 0 16px 30px rgba(10, 66, 36, 0.06);
+  color: #235039;
+  text-align: center;
+  font-size: clamp(1rem, 1.45vw, 1.16rem);
+  font-weight: 700;
+  line-height: 1.75;
+  letter-spacing: -0.01em;
+}
+
+.about-page-body {
+  margin: 0;
+  grid-column: 1 / -1;
+  justify-self: center;
+  width: 100%;
+  max-width: 960px;
+  padding: 1.45rem 1.55rem;
+  border-radius: 26px;
+  border: 1px solid rgba(153, 206, 172, 0.4);
+  background: rgba(255, 255, 255, 0.94);
+  box-shadow: 0 18px 34px rgba(10, 66, 36, 0.07);
+  color: #2d5b3e;
+  font-size: clamp(1.04rem, 1.45vw, 1.18rem);
+  line-height: 1.95;
+  letter-spacing: -0.01em;
+  text-align: start;
+}
+
+body.about-page.is-arabic {
+  font-family: "Cairo", sans-serif;
+}
+
+body.is-arabic .page-hero {
+  text-align: right;
+}
+
+body.is-arabic .page-hero-card li {
+  padding-left: 0;
+  padding-right: 1.8rem;
+}
+
+body.is-arabic .page-hero-card li::before {
+  left: auto;
+  right: 0;
+}
+
+body.is-arabic .fees-preview {
+  text-align: right;
+}
+
+body.is-arabic .fees-preview-actions {
+  justify-content: flex-start;
+}
+
+body.is-arabic .about-hero-copy {
+  grid-template-columns: minmax(280px, 0.72fr) minmax(0, 1.2fr);
+}
+
+body.is-arabic .about-page-subtitle {
+  text-align: center;
+}
+
+body.is-arabic .about-page-body {
+  text-align: start;
+}
+
 .review {
   border-top: 3px solid #7fd49f;
 }
@@ -882,6 +1724,7 @@ h2 {
   .steps,
   .pricing,
   .gallery-grid,
+  .page-hero-grid,
   .footer-grid {
     grid-template-columns: 1fr 1fr;
   }
@@ -951,6 +1794,106 @@ h2 {
     background-attachment: scroll;
   }
 
+  .fees-preview {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .fees-preview-grid {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+
+  .fees-preview-actions {
+    justify-content: flex-start;
+  }
+
+  .page-hero-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .page-hero {
+    padding: 4rem 0 3.5rem;
+  }
+
+  .fees-page .page-hero {
+    padding: 2.9rem 0 2.4rem;
+  }
+
+  .fees-page .page-hero-card {
+    max-width: 100%;
+    justify-self: stretch;
+  }
+
+  .fees-page .page-hero h1 {
+    max-width: 12ch;
+  }
+
+  .fees-page .fees-hero h1 {
+    white-space: normal;
+  }
+
+  .fees-hero-shell,
+  .fee-duration-shell {
+    grid-template-columns: 1fr;
+  }
+
+  .fees-page-main .container {
+    width: min(1140px, 92%);
+  }
+
+  .fees-focus-wrap .fee-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .fees-overview-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .fees-included-bar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .fee-duration-panel {
+    position: static;
+  }
+
+  .fees-focus-panel {
+    width: 100%;
+  }
+
+  .fees-focus-panel .fee-duration-copy {
+    white-space: normal;
+  }
+
+  .about-hero-copy {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  body.is-arabic .about-hero-copy {
+    grid-template-columns: 1fr;
+  }
+
+  .about-hero {
+    padding: 2.75rem 0 2.45rem;
+  }
+
+  .about-hero h1 {
+    max-width: none;
+    font-size: clamp(1.3rem, 5vw, 2.7rem);
+  }
+
+  .about-page-subtitle,
+  .about-page-body {
+    max-width: 100%;
+  }
+
+  .about-page-body {
+    padding: 1.2rem 1.25rem;
+  }
+
   .hero-title {
     max-width: 100%;
   }
@@ -972,6 +1915,7 @@ h2 {
   .steps,
   .pricing,
   .gallery-grid,
+  .page-hero-grid,
   .footer-grid,
   .trial-wrap {
     display: grid;
@@ -1046,6 +1990,10 @@ h2 {
   .hero {
     padding-top: 3rem;
     padding-bottom: 3.2rem;
+  }
+
+  .page-hero {
+    padding: 3.3rem 0 3rem;
   }
 
   .eyebrow {
@@ -1141,6 +2089,223 @@ h2 {
 
   .price-card.featured {
     transform: none;
+  }
+
+  .fees-preview {
+    padding: 1.35rem;
+    border-radius: 20px;
+  }
+
+  .fees-preview-grid {
+    gap: 0.85rem;
+  }
+
+  .fees-preview-actions {
+    width: 100%;
+  }
+
+  .fees-preview-actions .btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .page-hero h1 {
+    max-width: 100%;
+  }
+
+  .page-hero-card {
+    padding: 1.2rem;
+    border-radius: 20px;
+  }
+
+  .fees-page .page-hero h1 {
+    max-width: 100%;
+    font-size: clamp(1.45rem, 6vw, 2rem);
+  }
+
+  .fees-page .fees-hero h1 {
+    white-space: normal;
+    font-size: clamp(1.4rem, 6vw, 1.95rem);
+  }
+
+  .fees-hero-shell,
+  .fees-overview-grid,
+  .fee-duration-shell {
+    grid-template-columns: 1fr;
+  }
+
+  .fees-included-bar,
+  .fees-included-points {
+    width: 100%;
+  }
+
+  .fees-jump-list {
+    width: 100%;
+  }
+
+  .fees-jump-chip {
+    flex: 1 1 calc(50% - 0.7rem);
+  }
+
+  .fee-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .fees-focus-wrap .fee-grid {
+    grid-template-columns: 1fr;
+    gap: 0.85rem;
+  }
+
+  .fees-duration-section {
+    padding-top: 1.5rem;
+    padding-bottom: 1.7rem;
+    scroll-margin-top: 82px;
+  }
+
+  .fees-focus-wrap {
+    gap: 0.95rem;
+  }
+
+  .fees-focus-panel {
+    padding: 1.05rem 0.95rem;
+    border-radius: 22px;
+  }
+
+  .fees-focus-panel .duration-chip {
+    margin-bottom: 0.65rem;
+    padding: 0.54rem 0.82rem;
+    font-size: 0.76rem;
+  }
+
+  .fees-focus-panel .fee-duration-copy {
+    font-size: 0.95rem;
+    line-height: 1.58;
+  }
+
+  .fees-focus-panel .fee-duration-badges {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.45rem;
+  }
+
+  .fees-focus-panel .fee-duration-badges span {
+    width: 100%;
+    max-width: 280px;
+    justify-content: center;
+  }
+
+  .about-page-body {
+    max-width: 100%;
+    font-size: 1.02rem;
+    line-height: 1.82;
+  }
+
+  .about-hero {
+    padding: 2.2rem 0 2rem;
+  }
+
+  .about-hero-copy {
+    gap: 0.85rem;
+  }
+
+  .about-page .section-kicker {
+    margin-bottom: 0.1rem;
+    font-size: 0.72rem;
+    text-align: center;
+  }
+
+  .about-hero h1 {
+    max-width: 10ch;
+    margin-inline: auto;
+    white-space: normal;
+    font-size: clamp(1.65rem, 8vw, 2.25rem);
+    line-height: 1.08;
+  }
+
+  .about-page-subtitle {
+    max-width: 100%;
+    padding: 0.9rem 1rem;
+    border-radius: 20px;
+    font-size: 0.95rem;
+    line-height: 1.62;
+  }
+
+  .about-page-body {
+    padding: 1rem;
+    border-radius: 20px;
+    font-size: 0.96rem;
+    line-height: 1.75;
+  }
+
+  .about-page .hero-cta {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.7rem;
+  }
+
+  .about-page .hero-cta .btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .fee-plan-card h3,
+  .fee-note,
+  .fee-plan-card .plan-tag {
+    white-space: normal;
+  }
+
+  .fees-page .fee-plan-card h3,
+  .fees-page .fee-note,
+  .fees-page .fee-plan-card .plan-tag {
+    white-space: normal;
+  }
+
+  .fees-page .fee-plan-card {
+    gap: 0.75rem;
+    padding: 1rem;
+  }
+
+  .fees-page .fee-plan-card .plan-tag {
+    width: 100%;
+    max-width: 260px;
+    font-size: 0.72rem;
+    padding: 0.5rem 0.78rem;
+  }
+
+  .fees-page .fee-plan-card h3 {
+    font-size: 1rem;
+    line-height: 1.3;
+  }
+
+  .fees-page .fee-price-pair {
+    width: 100%;
+    max-width: 220px;
+    justify-content: center;
+    font-size: 1.14rem;
+    padding: 0.68rem 0.8rem;
+  }
+
+  .fees-page .fee-note {
+    width: 100%;
+    max-width: 290px;
+    justify-content: center;
+    text-align: center;
+    line-height: 1.4;
+  }
+
+  .fees-page .price-card-btn {
+    width: 100%;
+  }
+
+  .about-page-subtitle {
+    padding: 0.9rem 1rem;
+    border-radius: 18px;
+  }
+
+  .about-page-body {
+    padding: 1.05rem 1.1rem;
+    border-radius: 18px;
   }
 
   .currency-switcher {
@@ -1240,6 +2405,11 @@ h2 {
     max-width: 11ch;
   }
 
+  .page-hero {
+    padding-top: 2.8rem;
+    padding-bottom: 2.55rem;
+  }
+
   .lead {
     font-size: 0.92rem;
   }
@@ -1314,6 +2484,59 @@ h2 {
 
   .price {
     font-size: 1.68rem;
+  }
+
+  .fee-price-pair {
+    font-size: 1.34rem;
+  }
+
+  .fees-page-main {
+    padding-top: 0.85rem;
+  }
+
+  .fees-focus-panel {
+    padding: 0.95rem 0.85rem;
+  }
+
+  .fees-focus-panel .fee-duration-copy {
+    font-size: 0.92rem;
+    line-height: 1.52;
+  }
+
+  .fees-page .fee-price-pair {
+    max-width: 205px;
+    font-size: 1.05rem;
+  }
+
+  .fees-page .fee-note {
+    max-width: 260px;
+    font-size: 0.77rem;
+  }
+
+  .fees-jump-chip {
+    flex: 1 1 100%;
+  }
+
+  .about-hero {
+    padding: 1.95rem 0 1.8rem;
+  }
+
+  .about-hero h1 {
+    max-width: 9ch;
+    font-size: clamp(1.45rem, 9.6vw, 1.95rem);
+    line-height: 1.1;
+  }
+
+  .about-page-subtitle {
+    padding: 0.82rem 0.9rem;
+    font-size: 0.9rem;
+    line-height: 1.55;
+  }
+
+  .about-page-body {
+    padding: 0.92rem 0.9rem;
+    font-size: 0.92rem;
+    line-height: 1.68;
   }
 
   .price-card li {
