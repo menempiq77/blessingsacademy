@@ -1883,6 +1883,11 @@ body.is-arabic .about-page-body {
     width: min(100%, calc(100% - 1.3rem));
   }
 
+  .courses-intro-line {
+    white-space: normal;
+    max-width: 32ch;
+  }
+
   .topbar-wrap,
   .hero-grid,
   .contact-actions,
