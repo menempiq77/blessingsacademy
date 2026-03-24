@@ -491,6 +491,11 @@ h2 {
   max-width: 62ch;
 }
 
+.courses-intro-line {
+  max-width: none;
+  white-space: nowrap;
+}
+
 .cards,
 .steps,
 .pricing {
