@@ -76,7 +76,14 @@
       <p data-i18n="contact_intro">Choose how you want to contact us:</p>
       <div class="contact-actions">
         <a class="btn btn-primary" href="tel:+201158967213"><span data-i18n="contact_call">Call</span> +201158967213</a>
-        <a class="btn btn-ghost" href="https://wa.me/201158967213" target="_blank" rel="noopener noreferrer">WhatsApp +201158967213</a>
+        <a
+          class="btn btn-ghost whatsapp-link"
+          href="https://wa.me/201158967213"
+          target="_blank"
+          rel="noopener noreferrer"
+          data-wa-message-en="Welcome to Blessings Academy. I would like to contact you on WhatsApp."
+          data-wa-message-ar="مرحبًا، أود التواصل مع Blessings Academy عبر واتساب."
+        >WhatsApp +201158967213</a>
         <a class="btn btn-ghost" href="https://www.instagram.com/blessings_academy_a/" target="_blank" rel="noopener noreferrer"><span data-i18n="contact_instagram">Instagram</span></a>
       </div>
       <a class="contact-close" href="#top" data-i18n="contact_close">Close</a>
@@ -91,13 +98,45 @@
           <h1 class="hero-title" data-i18n-html="hero_title">Online Quran Academy<br>for Kids and Adults</h1>
           <p class="lead" data-i18n="hero_lead">Join live one-to-one classes in Quran recitation, memorization, tajweed, Arabic language, and Islamic studies.</p>
           <div class="hero-cta">
-            <a class="btn btn-primary" href="https://wa.me/201158967213" target="_blank" rel="noopener noreferrer" data-i18n="hero_cta_primary">Start Free Trial</a>
+            <a
+              class="btn btn-primary whatsapp-link"
+              href="https://wa.me/201158967213"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-i18n="hero_cta_primary"
+              data-wa-message-en="Welcome to Blessings Academy. I would like to start a free trial class."
+              data-wa-message-ar="مرحبًا، أود حجز حصة تجريبية مجانية في Blessings Academy."
+            >Start Free Trial</a>
             <a class="btn btn-ghost" href="#courses" data-i18n="hero_cta_secondary">Explore Courses</a>
           </div>
           <div class="hero-points">
-            <span data-i18n="hero_point_1">Qualified Male & Female Tutors</span>
-            <span data-i18n="hero_point_2">Flexible Class Timings</span>
-            <span data-i18n="hero_point_3">Monthly Progress Reports</span>
+            <a
+              class="whatsapp-link"
+              href="https://wa.me/201158967213"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-i18n="hero_point_1"
+              data-wa-message-en="Welcome to Blessings Academy. I would like to know more about your qualified male and female tutors."
+              data-wa-message-ar="مرحبًا، أود معرفة المزيد عن المعلمين والمعلمات المؤهلين في Blessings Academy."
+            >Qualified Male & Female Tutors</a>
+            <a
+              class="whatsapp-link"
+              href="https://wa.me/201158967213"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-i18n="hero_point_2"
+              data-wa-message-en="Welcome to Blessings Academy. I would like to ask about your flexible class timings."
+              data-wa-message-ar="مرحبًا، أود الاستفسار عن المواعيد المرنة المتاحة في Blessings Academy."
+            >Flexible Class Timings</a>
+            <a
+              class="whatsapp-link"
+              href="https://wa.me/201158967213"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-i18n="hero_point_3"
+              data-wa-message-en="Welcome to Blessings Academy. I would like to know more about the monthly progress reports."
+              data-wa-message-ar="مرحبًا، أود معرفة المزيد عن تقارير المتابعة الشهرية في Blessings Academy."
+            >Monthly Progress Reports</a>
           </div>
         </div>
         <aside class="hero-panel">
@@ -114,7 +153,15 @@
             <li data-i18n="why_item_4">Dedicated student support</li>
             <li data-i18n="why_item_5">Affordable monthly fees</li>
           </ul>
-          <a class="btn btn-primary panel-btn" href="https://wa.me/201158967213" target="_blank" rel="noopener noreferrer" data-i18n="why_cta">Book Free Class</a>
+          <a
+            class="btn btn-primary panel-btn whatsapp-link"
+            href="https://wa.me/201158967213"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-i18n="why_cta"
+            data-wa-message-en="Welcome to Blessings Academy. I would like to book a free class."
+            data-wa-message-ar="مرحبًا، أود حجز حصة مجانية في Blessings Academy."
+          >Book Free Class</a>
         </aside>
       </div>
       <div class="hero-decor hero-decor-a" aria-hidden="true"></div>
@@ -181,7 +228,15 @@
           <p class="section-kicker" data-i18n="trial_kicker">Free Trial</p>
           <h2 data-i18n="trial_title">Get Your First Lesson for Free</h2>
         </div>
-        <a class="btn btn-primary" href="https://wa.me/201158967213" target="_blank" rel="noopener noreferrer" data-i18n="trial_cta">Register Here</a>
+        <a
+          class="btn btn-primary whatsapp-link"
+          href="https://wa.me/201158967213"
+          target="_blank"
+          rel="noopener noreferrer"
+          data-i18n="trial_cta"
+          data-wa-message-en="Welcome to Blessings Academy. I would like to register for the free trial."
+          data-wa-message-ar="مرحبًا، أود التسجيل في الحصة التجريبية المجانية لدى Blessings Academy."
+        >Register Here</a>
       </div>
     </section>
   </main>
@@ -435,6 +490,19 @@
       localStorage.setItem("ba-currency", currency);
     };
 
+    const applyWhatsAppLinks = (lang) => {
+      document.querySelectorAll(".whatsapp-link").forEach((link) => {
+        const message =
+          link.dataset[`waMessage${lang === "ar" ? "Ar" : "En"}`] ||
+          link.dataset.waMessageEn ||
+          "";
+
+        if (!message) return;
+
+        link.href = `https://wa.me/201158967213?text=${encodeURIComponent(message)}`;
+      });
+    };
+
     const applyLanguage = (lang) => {
       const isArabic = lang === "ar";
       document.documentElement.lang = isArabic ? "ar" : "en";
@@ -457,6 +525,7 @@
         button.classList.toggle("is-active", button.dataset.lang === lang);
       });
 
+      applyWhatsAppLinks(lang);
       localStorage.setItem("ba-language", lang);
     };
 

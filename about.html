@@ -58,7 +58,14 @@
       <p data-i18n="contact_intro">Choose how you want to contact us:</p>
       <div class="contact-actions">
         <a class="btn btn-primary" href="tel:+201158967213"><span data-i18n="contact_call">Call</span> +201158967213</a>
-        <a class="btn btn-ghost" href="https://wa.me/201158967213" target="_blank" rel="noopener noreferrer">WhatsApp +201158967213</a>
+        <a
+          class="btn btn-ghost whatsapp-link"
+          href="https://wa.me/201158967213"
+          target="_blank"
+          rel="noopener noreferrer"
+          data-wa-message-en="Welcome to Blessings Academy. I would like to contact you on WhatsApp."
+          data-wa-message-ar="مرحبًا، أود التواصل مع Blessings Academy عبر واتساب."
+        >WhatsApp +201158967213</a>
         <a class="btn btn-ghost" href="https://www.instagram.com/blessings_academy_a/" target="_blank" rel="noopener noreferrer"><span data-i18n="contact_instagram">Instagram</span></a>
       </div>
       <a class="contact-close" href="#top" data-i18n="contact_close">Close</a>
@@ -73,7 +80,15 @@
         <p class="about-page-subtitle" data-i18n="about_page_intro_2">No matter where you are in the world, we welcome you to start your learning journey with us.</p>
         <p class="about-page-body" data-i18n="about_page_intro_1">Blessings Academy provides online teaching services to Muslims around the world. From Quran recitation correction, memorization, Tajweed, and Tafsir to Arabic and Islamic studies, our native Egyptian Arabic-speaking teachers are dedicated to helping students of all ages and levels learn the Quran and Quranic Arabic online.</p>
         <div class="hero-cta">
-          <a class="btn btn-primary" href="https://wa.me/201158967213" target="_blank" rel="noopener noreferrer" data-i18n="about_page_cta">Start on WhatsApp</a>
+          <a
+            class="btn btn-primary whatsapp-link"
+            href="https://wa.me/201158967213"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-i18n="about_page_cta"
+            data-wa-message-en="Welcome to Blessings Academy. I would like to know more about your academy and classes."
+            data-wa-message-ar="مرحبًا، أود معرفة المزيد عن Blessings Academy والدروس المتاحة."
+          >Start on WhatsApp</a>
           <a class="btn btn-ghost" href="index.html#top" data-i18n="about_page_back">Back to Home</a>
         </div>
       </div>
@@ -85,7 +100,15 @@
           <p class="section-kicker" data-i18n="trial_kicker">Free Trial</p>
           <h2 data-i18n="trial_title">Get Your First Lesson for Free</h2>
         </div>
-        <a class="btn btn-primary" href="https://wa.me/201158967213" target="_blank" rel="noopener noreferrer" data-i18n="trial_cta">Register Here</a>
+        <a
+          class="btn btn-primary whatsapp-link"
+          href="https://wa.me/201158967213"
+          target="_blank"
+          rel="noopener noreferrer"
+          data-i18n="trial_cta"
+          data-wa-message-en="Welcome to Blessings Academy. I would like to register for the free trial."
+          data-wa-message-ar="مرحبًا، أود التسجيل في الحصة التجريبية المجانية لدى Blessings Academy."
+        >Register Here</a>
       </div>
     </section>
   </main>
@@ -159,6 +182,19 @@
       }
     };
 
+    const applyWhatsAppLinks = (lang) => {
+      document.querySelectorAll(".whatsapp-link").forEach((link) => {
+        const message =
+          link.dataset[`waMessage${lang === "ar" ? "Ar" : "En"}`] ||
+          link.dataset.waMessageEn ||
+          "";
+
+        if (!message) return;
+
+        link.href = `https://wa.me/201158967213?text=${encodeURIComponent(message)}`;
+      });
+    };
+
     const applyLanguage = (lang) => {
       const isArabic = lang === "ar";
       document.documentElement.lang = isArabic ? "ar" : "en";
@@ -181,6 +217,7 @@
         button.classList.toggle("is-active", button.dataset.lang === lang);
       });
 
+      applyWhatsAppLinks(lang);
       localStorage.setItem("ba-language", lang);
     };
 
