@@ -195,6 +195,8 @@ body.is-arabic .footer-brand {
   padding: 0.45rem 0.75rem;
   border-radius: 999px;
   cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
 }
 
 .lang-btn.is-active {
@@ -1752,6 +1754,23 @@ body.is-arabic .about-page-body {
 
 .article-cta-box p {
   margin-top: 0;
+}
+
+body.is-arabic .articles-hero,
+body.is-arabic .article-hero,
+body.is-arabic .article-content,
+body.is-arabic .article-sidebar {
+  text-align: right;
+}
+
+body.is-arabic .article-meta {
+  direction: rtl;
+}
+
+body.is-arabic .article-content ul,
+body.is-arabic .article-content ol {
+  padding-left: 0;
+  padding-right: 1.3rem;
 }
 
 @keyframes heroSlide {
