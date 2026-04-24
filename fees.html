@@ -347,6 +347,14 @@
       fees_duration_weekly_short: "1-5 \u062d\u0635\u0635 / \u0623\u0633\u0628\u0648\u0639"
     });
 
+    const whatsAppPreviewUrl = "https://www.blessingsacademy.net/";
+
+    const withPreviewUrl = (message) => {
+      if (!message) return "";
+      if (message.includes(whatsAppPreviewUrl)) return message;
+      return `${message}\n\n${whatsAppPreviewUrl}`;
+    };
+
     const applyWhatsAppLinks = (lang) => {
       document.querySelectorAll(".whatsapp-link").forEach((link) => {
         const message =
@@ -356,7 +364,7 @@
 
         if (!message) return;
 
-        link.href = `https://wa.me/201158967213?text=${encodeURIComponent(message)}`;
+        link.href = `https://wa.me/201158967213?text=${encodeURIComponent(withPreviewUrl(message))}`;
       });
 
       document.querySelectorAll(".whatsapp-plan-link").forEach((link) => {
@@ -372,7 +380,7 @@
             ? `مرحبًا، أود الحجز أو الاستفسار عن هذه الخطة في Blessings Academy: ${duration}، ${weeklyPlan}، ${monthlyPlan}، السعر ${price}.`
             : `Welcome to Blessings Academy. I would like to book or ask about this plan: ${duration}, ${weeklyPlan}, ${monthlyPlan}, price ${price}.`;
 
-        link.href = `https://wa.me/201158967213?text=${encodeURIComponent(message)}`;
+        link.href = `https://wa.me/201158967213?text=${encodeURIComponent(withPreviewUrl(message))}`;
       });
     };
 

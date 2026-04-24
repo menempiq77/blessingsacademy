@@ -182,6 +182,14 @@
       }
     };
 
+    const whatsAppPreviewUrl = "https://www.blessingsacademy.net/";
+
+    const withPreviewUrl = (message) => {
+      if (!message) return "";
+      if (message.includes(whatsAppPreviewUrl)) return message;
+      return `${message}\n\n${whatsAppPreviewUrl}`;
+    };
+
     const applyWhatsAppLinks = (lang) => {
       document.querySelectorAll(".whatsapp-link").forEach((link) => {
         const message =
@@ -191,7 +199,7 @@
 
         if (!message) return;
 
-        link.href = `https://wa.me/201158967213?text=${encodeURIComponent(message)}`;
+        link.href = `https://wa.me/201158967213?text=${encodeURIComponent(withPreviewUrl(message))}`;
       });
     };
 
