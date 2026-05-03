@@ -311,13 +311,20 @@ h1 {
   gap: 0.65rem;
 }
 
-.hero-points span {
+.hero-points span,
+.hero-points a {
   border: 1px solid rgba(38, 111, 70, 0.35);
   border-radius: 999px;
   padding: 0.4rem 0.72rem;
   font-size: 0.84rem;
   background: rgba(255, 255, 255, 0.82);
   color: #215d3c;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.hero-points a:hover {
+  background: rgba(255, 255, 255, 0.92);
 }
 
 .hero-panel {
@@ -1937,6 +1944,18 @@ body.is-arabic .footer-contact-item {
   height: 1.2rem;
   flex: 0 0 1.2rem;
   color: #ecf9f1;
+}
+
+.footer-contact-icon-email {
+  color: #7dd3fc;
+}
+
+.footer-contact-icon-call {
+  color: #25d366;
+}
+
+.footer-contact-icon-instagram {
+  color: #f77737;
 }
 
 .footer-contact-icon svg {
