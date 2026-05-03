@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
+  <!-- ===== Main Pages ===== -->
   <url>
     <loc>https://www.blessingsacademy.net/</loc>
-    <lastmod>2026-04-24</lastmod>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -22,32 +24,129 @@
     <priority>0.9</priority>
   </url>
 
+  <!-- ===== Course Pages (English) ===== -->
+  <url>
+    <loc>https://www.blessingsacademy.net/courses/quran-reading-basics.html</loc>
+    <lastmod>2026-04-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.blessingsacademy.net/courses/quran-reading-basics.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.blessingsacademy.net/courses/ar/quran-reading-basics.html"/>
+  </url>
+
+  <url>
+    <loc>https://www.blessingsacademy.net/courses/quran-recitation.html</loc>
+    <lastmod>2026-04-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.blessingsacademy.net/courses/quran-recitation.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.blessingsacademy.net/courses/ar/quran-recitation.html"/>
+  </url>
+
+  <url>
+    <loc>https://www.blessingsacademy.net/courses/quran-memorization.html</loc>
+    <lastmod>2026-04-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.blessingsacademy.net/courses/quran-memorization.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.blessingsacademy.net/courses/ar/quran-memorization.html"/>
+  </url>
+
+  <url>
+    <loc>https://www.blessingsacademy.net/courses/tajweed-rules.html</loc>
+    <lastmod>2026-04-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.blessingsacademy.net/courses/tajweed-rules.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.blessingsacademy.net/courses/ar/tajweed-rules.html"/>
+  </url>
+
+  <url>
+    <loc>https://www.blessingsacademy.net/courses/arabic-language.html</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.blessingsacademy.net/courses/arabic-language.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.blessingsacademy.net/courses/ar/arabic-language.html"/>
+  </url>
+
+  <url>
+    <loc>https://www.blessingsacademy.net/courses/islamic-studies.html</loc>
+    <lastmod>2026-04-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.blessingsacademy.net/courses/islamic-studies.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.blessingsacademy.net/courses/ar/islamic-studies.html"/>
+  </url>
+
+  <!-- ===== Course Pages (Arabic) ===== -->
+  <url>
+    <loc>https://www.blessingsacademy.net/courses/ar/quran-reading-basics.html</loc>
+    <lastmod>2026-04-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.blessingsacademy.net/courses/ar/quran-recitation.html</loc>
+    <lastmod>2026-04-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.blessingsacademy.net/courses/ar/quran-memorization.html</loc>
+    <lastmod>2026-04-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.blessingsacademy.net/courses/ar/tajweed-rules.html</loc>
+    <lastmod>2026-04-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.blessingsacademy.net/courses/ar/arabic-language.html</loc>
+    <lastmod>2026-04-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.blessingsacademy.net/courses/ar/islamic-studies.html</loc>
+    <lastmod>2026-04-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ===== Articles Index ===== -->
   <url>
     <loc>https://www.blessingsacademy.net/articles/</loc>
-    <lastmod>2026-04-24</lastmod>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.blessingsacademy.net/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.blessingsacademy.net/articles/ar/"/>
   </url>
 
   <url>
     <loc>https://www.blessingsacademy.net/articles/ar/</loc>
-    <lastmod>2026-04-24</lastmod>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
 
+  <!-- ===== Articles (English) ===== -->
   <url>
     <loc>https://www.blessingsacademy.net/articles/how-to-help-children-love-quran-learning.html</loc>
     <lastmod>2026-04-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://www.blessingsacademy.net/articles/ar/how-to-help-children-love-quran-learning.html</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.blessingsacademy.net/articles/how-to-help-children-love-quran-learning.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.blessingsacademy.net/articles/ar/how-to-help-children-love-quran-learning.html"/>
   </url>
 
   <url>
@@ -55,13 +154,8 @@
     <lastmod>2026-04-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://www.blessingsacademy.net/articles/ar/why-tajweed-matters-in-online-quran-learning.html</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.blessingsacademy.net/articles/why-tajweed-matters-in-online-quran-learning.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.blessingsacademy.net/articles/ar/why-tajweed-matters-in-online-quran-learning.html"/>
   </url>
 
   <url>
@@ -69,13 +163,8 @@
     <lastmod>2026-04-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://www.blessingsacademy.net/articles/ar/the-best-way-to-start-learning-arabic-for-quran-understanding.html</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.blessingsacademy.net/articles/the-best-way-to-start-learning-arabic-for-quran-understanding.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.blessingsacademy.net/articles/ar/the-best-way-to-start-learning-arabic-for-quran-understanding.html"/>
   </url>
 
   <url>
@@ -83,13 +172,8 @@
     <lastmod>2026-04-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://www.blessingsacademy.net/articles/ar/what-beginners-need-in-their-first-online-quran-class.html</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.blessingsacademy.net/articles/what-beginners-need-in-their-first-online-quran-class.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.blessingsacademy.net/articles/ar/what-beginners-need-in-their-first-online-quran-class.html"/>
   </url>
 
   <url>
@@ -97,13 +181,8 @@
     <lastmod>2026-04-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://www.blessingsacademy.net/articles/ar/the-benefits-of-one-to-one-online-quran-classes.html</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.blessingsacademy.net/articles/the-benefits-of-one-to-one-online-quran-classes.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.blessingsacademy.net/articles/ar/the-benefits-of-one-to-one-online-quran-classes.html"/>
   </url>
 
   <url>
@@ -111,13 +190,8 @@
     <lastmod>2026-04-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://www.blessingsacademy.net/articles/ar/how-to-stay-consistent-with-quran-memorization.html</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.blessingsacademy.net/articles/how-to-stay-consistent-with-quran-memorization.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.blessingsacademy.net/articles/ar/how-to-stay-consistent-with-quran-memorization.html"/>
   </url>
 
   <url>
@@ -125,13 +199,8 @@
     <lastmod>2026-04-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://www.blessingsacademy.net/articles/ar/how-to-choose-the-right-online-quran-teacher.html</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.blessingsacademy.net/articles/how-to-choose-the-right-online-quran-teacher.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.blessingsacademy.net/articles/ar/how-to-choose-the-right-online-quran-teacher.html"/>
   </url>
 
   <url>
@@ -139,13 +208,8 @@
     <lastmod>2026-04-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://www.blessingsacademy.net/articles/ar/why-noorani-qaida-is-important-for-beginner-quran-reading.html</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.blessingsacademy.net/articles/why-noorani-qaida-is-important-for-beginner-quran-reading.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.blessingsacademy.net/articles/ar/why-noorani-qaida-is-important-for-beginner-quran-reading.html"/>
   </url>
 
   <url>
@@ -153,13 +217,93 @@
     <lastmod>2026-04-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.blessingsacademy.net/articles/how-to-build-a-daily-quran-routine-that-lasts.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.blessingsacademy.net/articles/ar/how-to-build-a-daily-quran-routine-that-lasts.html"/>
+  </url>
+
+  <url>
+    <loc>https://www.blessingsacademy.net/articles/how-islamic-studies-shapes-a-childs-character-and-faith.html</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.blessingsacademy.net/articles/how-to-improve-quran-recitation-through-regular-revision.html</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.blessingsacademy.net/articles/why-arabic-grammar-helps-you-understand-the-quran-deeply.html</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ===== Articles (Arabic) ===== -->
+  <url>
+    <loc>https://www.blessingsacademy.net/articles/ar/how-to-help-children-love-quran-learning.html</loc>
+    <lastmod>2026-04-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.blessingsacademy.net/articles/ar/why-tajweed-matters-in-online-quran-learning.html</loc>
+    <lastmod>2026-04-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.blessingsacademy.net/articles/ar/the-best-way-to-start-learning-arabic-for-quran-understanding.html</loc>
+    <lastmod>2026-04-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.blessingsacademy.net/articles/ar/what-beginners-need-in-their-first-online-quran-class.html</loc>
+    <lastmod>2026-04-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.blessingsacademy.net/articles/ar/the-benefits-of-one-to-one-online-quran-classes.html</loc>
+    <lastmod>2026-04-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.blessingsacademy.net/articles/ar/how-to-stay-consistent-with-quran-memorization.html</loc>
+    <lastmod>2026-04-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.blessingsacademy.net/articles/ar/how-to-choose-the-right-online-quran-teacher.html</loc>
+    <lastmod>2026-04-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.blessingsacademy.net/articles/ar/why-noorani-qaida-is-important-for-beginner-quran-reading.html</loc>
+    <lastmod>2026-04-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://www.blessingsacademy.net/articles/ar/how-to-build-a-daily-quran-routine-that-lasts.html</loc>
     <lastmod>2026-04-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
 
 </urlset>
