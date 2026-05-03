@@ -526,6 +526,11 @@ h2 {
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
+.course-card {
+  display: flex;
+  flex-direction: column;
+}
+
 .card:hover {
   transform: translateY(-4px);
   box-shadow: 0 16px 32px rgba(11, 69, 37, 0.13);
@@ -569,6 +574,15 @@ h2 {
 .price-card h3 {
   margin-top: 0;
   color: var(--green-900);
+}
+
+.card-actions {
+  margin-top: auto;
+  padding-top: 0.35rem;
+}
+
+.card-actions .btn {
+  width: fit-content;
 }
 
 .step span {
@@ -1756,6 +1770,45 @@ body.is-arabic .about-page-body {
   margin-top: 0;
 }
 
+.course-highlights {
+  display: grid;
+  gap: 0.85rem;
+  margin: 1.25rem 0 1.6rem;
+}
+
+.course-highlight {
+  padding: 1rem 1.1rem;
+  border-radius: 18px;
+  background: linear-gradient(180deg, #eefaf2 0%, #f9fdf9 100%);
+  border: 1px solid #d7eee1;
+}
+
+.course-highlight h3 {
+  margin: 0 0 0.45rem;
+  font-size: 1.05rem;
+}
+
+.course-highlight p,
+.course-highlight ul {
+  margin: 0;
+}
+
+.course-highlight ul {
+  padding-left: 1.2rem;
+}
+
+.course-register-box {
+  margin-top: 1.25rem;
+  padding: 1.15rem;
+  border-radius: 20px;
+  background: linear-gradient(180deg, #e6f7ec 0%, #f8fdf9 100%);
+  border: 1px solid #cfe9da;
+}
+
+.course-register-box p {
+  margin-top: 0;
+}
+
 body.is-arabic .articles-hero,
 body.is-arabic .article-hero,
 body.is-arabic .article-content,
@@ -1771,6 +1824,11 @@ body.is-arabic .article-content ul,
 body.is-arabic .article-content ol {
   padding-left: 0;
   padding-right: 1.3rem;
+}
+
+body.is-arabic .course-highlight ul {
+  padding-left: 0;
+  padding-right: 1.2rem;
 }
 
 @keyframes heroSlide {
