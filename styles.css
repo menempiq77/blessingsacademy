@@ -1671,12 +1671,19 @@ body.is-arabic .about-page-body {
 .article-grid {
   display: grid;
   gap: 1.2rem;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 .article-card {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.article-card h2 {
+  font-size: clamp(1rem, 1.4vw, 1.25rem);
+  line-height: 1.35;
 }
 
 .article-card .card-media {
@@ -1691,6 +1698,7 @@ body.is-arabic .about-page-body {
   color: #476b58;
   font-size: 0.86rem;
   font-weight: 700;
+  justify-content: center;
 }
 
 .article-card p:last-of-type {
@@ -1902,12 +1910,19 @@ body.is-arabic .footer-contact-item {
 .site-footer {
   background: #0e4f2f;
   color: #d5f1de;
-  padding-top: 2.1rem;
+  padding-top: 2.9rem;
 }
 
 .footer-grid {
   display: grid;
   grid-template-columns: 1.2fr 1fr 1fr;
+  gap: 2rem 2.4rem;
+  align-items: start;
+}
+
+.footer-grid > div {
+  display: grid;
+  align-content: start;
   gap: 1rem;
 }
 
@@ -1915,7 +1930,19 @@ body.is-arabic .footer-contact-item {
   display: inline-flex;
   align-items: center;
   gap: 0.55rem;
-  margin-top: 0;
+  margin: 0;
+  color: #ffffff;
+}
+
+.site-footer h4 {
+  margin: 0;
+  color: #ffffff;
+  font-size: 1.02rem;
+}
+
+.site-footer p {
+  margin: 0;
+  line-height: 1.7;
 }
 
 .footer-logo {
@@ -1929,6 +1956,10 @@ body.is-arabic .footer-contact-item {
 .site-footer a {
   color: #d5f1de;
   text-decoration: none;
+}
+
+.site-footer a:hover {
+  color: #ffffff;
 }
 
 .footer-contact-list {
@@ -1976,11 +2007,16 @@ body.is-arabic .footer-contact-item {
   color: #ffffff;
 }
 
+.footer-link-list {
+  display: grid;
+  gap: 1rem;
+}
+
 .copyright {
   border-top: 1px solid rgba(255, 255, 255, 0.16);
   text-align: center;
-  margin-top: 1.5rem;
-  padding: 0.9rem;
+  margin-top: 2.2rem;
+  padding: 1rem;
   font-size: 0.94rem;
 }
 
