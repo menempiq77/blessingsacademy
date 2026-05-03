@@ -1662,6 +1662,12 @@ body.is-arabic .about-page-body {
   text-shadow: none;
 }
 
+.articles-hero h1 {
+  font-size: clamp(1.9rem, 3.6vw, 2.75rem);
+  line-height: 1.16;
+  max-width: 18ch;
+}
+
 .article-grid {
   display: grid;
   gap: 1.2rem;
