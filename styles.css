@@ -505,6 +505,84 @@ h2 {
   white-space: nowrap;
 }
 
+.course-video-feature {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.35fr);
+  gap: 1.4rem;
+  align-items: center;
+  margin: 1.9rem 0 2rem;
+  padding: 1.35rem;
+  border-radius: 28px;
+  background:
+    radial-gradient(circle at top left, rgba(227, 244, 232, 0.95), transparent 42%),
+    linear-gradient(135deg, #f8fdf9 0%, #eef9f1 50%, #e4f5ea 100%);
+  border: 1px solid #d6efe0;
+  box-shadow: 0 22px 60px rgba(11, 69, 37, 0.1);
+  overflow: hidden;
+}
+
+.course-video-copy {
+  position: relative;
+  z-index: 1;
+}
+
+.course-video-kicker {
+  margin: 0 0 0.65rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #2f8f50;
+}
+
+.course-video-copy h3 {
+  margin: 0 0 0.85rem;
+  font-size: clamp(1.5rem, 3vw, 2.2rem);
+  line-height: 1.16;
+  color: var(--green-900);
+}
+
+.course-video-copy > p:last-of-type {
+  margin: 0 0 1.15rem;
+  color: #355f46;
+  line-height: 1.75;
+  max-width: 46ch;
+}
+
+.course-video-frame {
+  position: relative;
+  padding: 0.7rem;
+  border-radius: 24px;
+  background: linear-gradient(135deg, rgba(15, 95, 51, 0.14), rgba(255, 255, 255, 0.85));
+  box-shadow: 0 20px 50px rgba(7, 53, 27, 0.18);
+}
+
+.course-video-frame::before {
+  content: "";
+  position: absolute;
+  inset: 0.55rem;
+  border-radius: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  pointer-events: none;
+}
+
+.course-video-embed {
+  position: relative;
+  padding-top: 56.25%;
+  border-radius: 18px;
+  overflow: hidden;
+  background: linear-gradient(135deg, #0d4325, #163f2b);
+}
+
+.course-video-embed iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
 .cards,
 .steps,
 .pricing {
@@ -2021,6 +2099,10 @@ body.is-arabic .footer-contact-item {
 }
 
 @media (max-width: 980px) {
+  .course-video-feature {
+    grid-template-columns: 1fr;
+  }
+
   .hero-grid,
   .contact-actions,
   .cards-3,
@@ -2218,6 +2300,16 @@ body.is-arabic .footer-contact-item {
   .courses-intro-line {
     white-space: normal;
     max-width: 32ch;
+  }
+
+  .course-video-feature {
+    grid-template-columns: 1fr;
+    padding: 1rem;
+    border-radius: 22px;
+  }
+
+  .course-video-copy > p:last-of-type {
+    max-width: none;
   }
 
   .topbar-wrap,
