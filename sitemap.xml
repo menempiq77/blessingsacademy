@@ -290,6 +290,8 @@
     <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.blessingsacademy.net/articles/how-islamic-studies-shapes-a-childs-character-and-faith.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.blessingsacademy.net/articles/ar/how-islamic-studies-shapes-a-childs-character-and-faith.html"/>
   </url>
 
   <url>
@@ -297,6 +299,8 @@
     <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.blessingsacademy.net/articles/how-to-improve-quran-recitation-through-regular-revision.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.blessingsacademy.net/articles/ar/how-to-improve-quran-recitation-through-regular-revision.html"/>
   </url>
 
   <url>
@@ -304,8 +308,91 @@
     <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.blessingsacademy.net/articles/why-arabic-grammar-helps-you-understand-the-quran-deeply.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.blessingsacademy.net/articles/ar/why-arabic-grammar-helps-you-understand-the-quran-deeply.html"/>
   </url>
 
+
+  <url>
+    <loc>https://www.blessingsacademy.net/articles/online-tafsir-classes-understanding-the-quran-you-recite.html</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.blessingsacademy.net/articles/online-tafsir-classes-understanding-the-quran-you-recite.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.blessingsacademy.net/articles/ar/online-tafsir-classes-understanding-the-quran-you-recite.html"/>
+  </url>
+  <url>
+    <loc>https://www.blessingsacademy.net/articles/how-to-study-the-seerah-step-by-step.html</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.blessingsacademy.net/articles/how-to-study-the-seerah-step-by-step.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.blessingsacademy.net/articles/ar/how-to-study-the-seerah-step-by-step.html"/>
+  </url>
+  <url>
+    <loc>https://www.blessingsacademy.net/articles/introduction-to-hadith-studies-for-beginners.html</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.blessingsacademy.net/articles/introduction-to-hadith-studies-for-beginners.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.blessingsacademy.net/articles/ar/introduction-to-hadith-studies-for-beginners.html"/>
+  </url>
+  <url>
+    <loc>https://www.blessingsacademy.net/articles/teaching-aqidah-to-children-level-by-level.html</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.blessingsacademy.net/articles/teaching-aqidah-to-children-level-by-level.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.blessingsacademy.net/articles/ar/teaching-aqidah-to-children-level-by-level.html"/>
+  </url>
+  <url>
+    <loc>https://www.blessingsacademy.net/articles/how-long-does-it-take-to-memorize-the-quran.html</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.blessingsacademy.net/articles/how-long-does-it-take-to-memorize-the-quran.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.blessingsacademy.net/articles/ar/how-long-does-it-take-to-memorize-the-quran.html"/>
+  </url>
+  <url>
+    <loc>https://www.blessingsacademy.net/articles/online-quran-classes-for-adults-who-start-late.html</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.blessingsacademy.net/articles/online-quran-classes-for-adults-who-start-late.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.blessingsacademy.net/articles/ar/online-quran-classes-for-adults-who-start-late.html"/>
+  </url>
+  <url>
+    <loc>https://www.blessingsacademy.net/articles/common-tajweed-mistakes-and-how-to-correct-them.html</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.blessingsacademy.net/articles/common-tajweed-mistakes-and-how-to-correct-them.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.blessingsacademy.net/articles/ar/common-tajweed-mistakes-and-how-to-correct-them.html"/>
+  </url>
+  <url>
+    <loc>https://www.blessingsacademy.net/articles/how-to-prepare-for-ramadan-with-a-quran-plan.html</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.blessingsacademy.net/articles/how-to-prepare-for-ramadan-with-a-quran-plan.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.blessingsacademy.net/articles/ar/how-to-prepare-for-ramadan-with-a-quran-plan.html"/>
+  </url>
+  <url>
+    <loc>https://www.blessingsacademy.net/articles/choosing-online-quran-classes-for-muslim-families-abroad.html</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.blessingsacademy.net/articles/choosing-online-quran-classes-for-muslim-families-abroad.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.blessingsacademy.net/articles/ar/choosing-online-quran-classes-for-muslim-families-abroad.html"/>
+  </url>
+  <url>
+    <loc>https://www.blessingsacademy.net/articles/how-to-keep-children-motivated-in-online-quran-classes.html</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.blessingsacademy.net/articles/how-to-keep-children-motivated-in-online-quran-classes.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.blessingsacademy.net/articles/ar/how-to-keep-children-motivated-in-online-quran-classes.html"/>
+  </url>
   <!-- ===== Articles (Arabic) ===== -->
   <url>
     <loc>https://www.blessingsacademy.net/articles/ar/how-to-help-children-love-quran-learning.html</loc>
@@ -366,6 +453,85 @@
   <url>
     <loc>https://www.blessingsacademy.net/articles/ar/how-to-build-a-daily-quran-routine-that-lasts.html</loc>
     <lastmod>2026-04-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.blessingsacademy.net/articles/ar/online-tafsir-classes-understanding-the-quran-you-recite.html</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.blessingsacademy.net/articles/ar/how-to-study-the-seerah-step-by-step.html</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.blessingsacademy.net/articles/ar/introduction-to-hadith-studies-for-beginners.html</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.blessingsacademy.net/articles/ar/teaching-aqidah-to-children-level-by-level.html</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.blessingsacademy.net/articles/ar/how-long-does-it-take-to-memorize-the-quran.html</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.blessingsacademy.net/articles/ar/online-quran-classes-for-adults-who-start-late.html</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.blessingsacademy.net/articles/ar/common-tajweed-mistakes-and-how-to-correct-them.html</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.blessingsacademy.net/articles/ar/how-to-prepare-for-ramadan-with-a-quran-plan.html</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.blessingsacademy.net/articles/ar/choosing-online-quran-classes-for-muslim-families-abroad.html</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.blessingsacademy.net/articles/ar/how-to-keep-children-motivated-in-online-quran-classes.html</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.blessingsacademy.net/articles/ar/how-islamic-studies-shapes-a-childs-character-and-faith.html</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.blessingsacademy.net/articles/ar/how-to-improve-quran-recitation-through-regular-revision.html</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.blessingsacademy.net/articles/ar/why-arabic-grammar-helps-you-understand-the-quran-deeply.html</loc>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
