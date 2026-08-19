@@ -79,6 +79,42 @@
     <xhtml:link rel="alternate" hreflang="ar" href="https://www.blessingsacademy.net/courses/ar/islamic-studies.html"/>
   </url>
 
+  <url>
+    <loc>https://www.blessingsacademy.net/courses/tafsir.html</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.blessingsacademy.net/courses/tafsir.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.blessingsacademy.net/courses/ar/tafsir.html"/>
+  </url>
+
+  <url>
+    <loc>https://www.blessingsacademy.net/courses/sirah.html</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.blessingsacademy.net/courses/sirah.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.blessingsacademy.net/courses/ar/sirah.html"/>
+  </url>
+
+  <url>
+    <loc>https://www.blessingsacademy.net/courses/hadith.html</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.blessingsacademy.net/courses/hadith.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.blessingsacademy.net/courses/ar/hadith.html"/>
+  </url>
+
+  <url>
+    <loc>https://www.blessingsacademy.net/courses/aqidah.html</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.blessingsacademy.net/courses/aqidah.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.blessingsacademy.net/courses/ar/aqidah.html"/>
+  </url>
+
   <!-- ===== Course Pages (Arabic) ===== -->
   <url>
     <loc>https://www.blessingsacademy.net/courses/ar/quran-reading-basics.html</loc>
@@ -118,6 +154,34 @@
   <url>
     <loc>https://www.blessingsacademy.net/courses/ar/islamic-studies.html</loc>
     <lastmod>2026-04-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.blessingsacademy.net/courses/ar/tafsir.html</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.blessingsacademy.net/courses/ar/sirah.html</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.blessingsacademy.net/courses/ar/hadith.html</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.blessingsacademy.net/courses/ar/aqidah.html</loc>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
